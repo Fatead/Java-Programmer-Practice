@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class FixedThreadPool {
+public class Fixed {
 
 
     /**
@@ -43,8 +43,8 @@ public class FixedThreadPool {
 
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        FixedThreadPool fixedThreadPool = new FixedThreadPool();
-        fixedThreadPool.execute();
+        Fixed fixed = new Fixed();
+        fixed.execute();
     }
 
 }
