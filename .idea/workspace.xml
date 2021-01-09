@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/GenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflect/ReflectTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflect/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/AtomicIntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/ThreadCAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/TwoThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/VolatileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/ABADemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/AtomicReferenceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/CASDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/SpinLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/ThreadSafeList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +46,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AtomicIntegerDemo">
+  <component name="RunManager" selected="Application.SpinLockDemo">
+    <configuration name="ABADemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.ABADemo" />
+      <module name="ProgramPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.AtomicIntegerDemo" />
       <module name="ProgramPractice" />
@@ -63,34 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.GenericClass" />
-      <module name="ProgramPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.GenericMethod" />
-      <module name="ProgramPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="generic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.TwoThread" />
+    <configuration name="AtomicReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.AtomicReferenceDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.VolatileDemo" />
+    <configuration name="CASDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.CASDemo" />
+      <module name="ProgramPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpinLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.SpinLockDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
@@ -116,19 +113,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GenericMethod" />
-      <item itemvalue="Application.GenericClass" />
-      <item itemvalue="Application.TwoThread" />
-      <item itemvalue="Application.VolatileDemo" />
       <item itemvalue="Application.AtomicIntegerDemo" />
+      <item itemvalue="Application.CASDemo" />
+      <item itemvalue="Application.AtomicReferenceDemo" />
+      <item itemvalue="Application.ABADemo" />
+      <item itemvalue="Application.SpinLockDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpinLockDemo" />
+        <item itemvalue="Application.ABADemo" />
+        <item itemvalue="Application.AtomicReferenceDemo" />
+        <item itemvalue="Application.CASDemo" />
         <item itemvalue="Application.AtomicIntegerDemo" />
-        <item itemvalue="Application.VolatileDemo" />
-        <item itemvalue="Application.TwoThread" />
-        <item itemvalue="Application.GenericClass" />
-        <item itemvalue="Application.GenericMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +145,10 @@
       <workItem from="1609720235188" duration="23000" />
       <workItem from="1610019123211" duration="6495000" />
       <workItem from="1610066413421" duration="99000" />
+      <workItem from="1610069202876" duration="1558000" />
+      <workItem from="1610092594510" duration="2780000" />
+      <workItem from="1610188859749" duration="599000" />
+      <workItem from="1610196116083" duration="3509000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596954937165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="volatile实例">
+      <created>1610069435263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610069435263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="分别实现四种线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="分别实现四种线程池" />
+    <MESSAGE value="volatile实例" />
+    <option name="LAST_COMMIT_MESSAGE" value="volatile实例" />
   </component>
 </project>
