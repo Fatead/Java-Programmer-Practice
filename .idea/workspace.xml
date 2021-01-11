@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/ABADemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/AtomicReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/CASDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/SpinLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/ThreadSafeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/CountDownLatchDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/SpinLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/SpinLockDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,22 +43,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpinLockDemo">
+  <component name="RunManager" selected="Application.CountDownLatchDemo">
     <configuration name="ABADemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.ABADemo" />
-      <module name="ProgramPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AtomicIntegerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.AtomicIntegerDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
@@ -99,6 +83,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.CountDownLatchDemo" />
+      <module name="ProgramPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpinLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.SpinLockDemo" />
       <module name="ProgramPractice" />
@@ -113,19 +110,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AtomicIntegerDemo" />
       <item itemvalue="Application.CASDemo" />
       <item itemvalue="Application.AtomicReferenceDemo" />
       <item itemvalue="Application.ABADemo" />
       <item itemvalue="Application.SpinLockDemo" />
+      <item itemvalue="Application.CountDownLatchDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.SpinLockDemo" />
         <item itemvalue="Application.ABADemo" />
         <item itemvalue="Application.AtomicReferenceDemo" />
         <item itemvalue="Application.CASDemo" />
-        <item itemvalue="Application.AtomicIntegerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +145,9 @@
       <workItem from="1610069202876" duration="1558000" />
       <workItem from="1610092594510" duration="2780000" />
       <workItem from="1610188859749" duration="599000" />
-      <workItem from="1610196116083" duration="3509000" />
+      <workItem from="1610196116083" duration="4383000" />
+      <workItem from="1610240122441" duration="15000" />
+      <workItem from="1610346092637" duration="246000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -164,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610069435263</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="可重入锁的样例">
+      <created>1610200097764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610200097764</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="分别实现四种线程池" />
     <MESSAGE value="volatile实例" />
-    <option name="LAST_COMMIT_MESSAGE" value="volatile实例" />
+    <MESSAGE value="可重入锁的样例" />
+    <option name="LAST_COMMIT_MESSAGE" value="可重入锁的样例" />
   </component>
 </project>

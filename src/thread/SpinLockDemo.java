@@ -1,6 +1,7 @@
 package thread;
 
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class SpinLockDemo {
 
@@ -48,7 +49,6 @@ public class SpinLockDemo {
             }
             spinLockDemo.myUnlock();
         },"BB").start();
-
     }
 
 }
