@@ -14,11 +14,11 @@ public class ProdConsumerBlockQueue {
         private AtomicInteger atomicInteger = new AtomicInteger();
         BlockingQueue<String> blockingQueue = null;
 
-        public SharedResource(BlockingQueue<String> blockingQueue) {
+        SharedResource(BlockingQueue<String> blockingQueue) {
             this.blockingQueue = blockingQueue;
         }
 
-        public void produce() throws InterruptedException {
+        void produce() throws InterruptedException {
             String data = null;
             boolean returnValue;
             while(FLAG){
@@ -35,7 +35,7 @@ public class ProdConsumerBlockQueue {
             System.out.println(Thread.currentThread().getName() + "大老板叫停了，flag = false，生产动作结束");
         }
 
-        public void consume() throws InterruptedException{
+        void consume() throws InterruptedException{
             String result = null;
             while(FLAG){
                 result = blockingQueue.poll(2L,TimeUnit.SECONDS);
@@ -50,7 +50,7 @@ public class ProdConsumerBlockQueue {
         }
 
 
-        public void stop() throws Exception{
+        void stop() throws Exception{
             this.FLAG = false;
         }
 

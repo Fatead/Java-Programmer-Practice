@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JUC/prodConsumer/ProdConsumerBlockQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/threadPool/Cached.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/threadPool/ThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/prodConsumer/prodConsumerTradition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/prodConsumer/ProdConsumerTradition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/Fixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/threadPool/Fixed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/Scheduled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/threadPool/Scheduled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/Single.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/threadPool/Single.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/prodConsumer/ProdConsumerBlockQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/prodConsumer/ProdConsumerBlockQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +49,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProdConsumerBlockQueue">
-    <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.BlockingQueueDemo" />
+  <component name="RunManager" selected="Application.Cached">
+    <configuration name="Cached" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.threadPool.Cached" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.*" />
+          <option name="PATTERN" value="JUC.threadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.SynchronousQueueDemo" />
+    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.threadPool.ThreadPoolDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.*" />
+          <option name="PATTERN" value="JUC.threadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,19 +116,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BlockingQueueDemo" />
-      <item itemvalue="Application.SynchronousQueueDemo" />
       <item itemvalue="Application.ProdConsumerTradition" />
       <item itemvalue="Application.SyncAndReentrantLockDemo" />
       <item itemvalue="Application.ProdConsumerBlockQueue" />
+      <item itemvalue="Application.ThreadPoolDemo" />
+      <item itemvalue="Application.Cached" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cached" />
+        <item itemvalue="Application.ThreadPoolDemo" />
         <item itemvalue="Application.ProdConsumerBlockQueue" />
         <item itemvalue="Application.SyncAndReentrantLockDemo" />
         <item itemvalue="Application.ProdConsumerTradition" />
-        <item itemvalue="Application.SynchronousQueueDemo" />
-        <item itemvalue="Application.BlockingQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,7 @@
       <workItem from="1610196116083" duration="4383000" />
       <workItem from="1610240122441" duration="15000" />
       <workItem from="1610346092637" duration="3220000" />
-      <workItem from="1610349598119" duration="12604000" />
+      <workItem from="1610349598119" duration="14745000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -200,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610367118061</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="使用阻塞队列实现的生产者消费者">
+      <created>1610371865414</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610371865414</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +239,7 @@
     <MESSAGE value="阻塞队列样例演示" />
     <MESSAGE value="生产者消费者样例演示" />
     <MESSAGE value="利用condition实现精确唤醒" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用condition实现精确唤醒" />
+    <MESSAGE value="使用阻塞队列实现的生产者消费者" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用阻塞队列实现的生产者消费者" />
   </component>
 </project>
