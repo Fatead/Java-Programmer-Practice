@@ -8,7 +8,6 @@ package JUC.prodConsumer;
  */
 public class prodConsumerTradition {
 
-
     public static void main(String[] args) {
         ShareData shareData = new ShareData();
         new Thread(()->{

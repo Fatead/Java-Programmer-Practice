@@ -13,6 +13,9 @@ public class ShareData {
     private Lock lock = new ReentrantLock();
     private Condition condition = lock.newCondition();
 
+    /**
+     * 多线程的唤醒不应该用if,而应该用while防止虚假唤醒
+     */
     public void increment() throws InterruptedException {
         lock.lock();
         try {
