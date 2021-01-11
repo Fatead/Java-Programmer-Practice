@@ -1,4 +1,4 @@
-package thread;
+package JUC;
 
 import java.util.ArrayList;
 import java.util.Collections;

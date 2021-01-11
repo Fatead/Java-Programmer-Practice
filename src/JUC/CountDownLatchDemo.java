@@ -1,6 +1,5 @@
-package thread;
+package JUC;
 
-import java.lang.management.ThreadInfo;
 import java.util.concurrent.CountDownLatch;
 
 public class CountDownLatchDemo {

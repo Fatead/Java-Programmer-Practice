@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/thread/BlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/CyclicBarrierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/SynchronousQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/prodConsumer/ShareData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/prodConsumer/prodConsumerTradition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/ABADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/ABADemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/AtomicIntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/AtomicReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/AtomicReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/BlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/BlockingQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/CASDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/CASDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/Cached.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/Cached.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/Fixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/Fixed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/Scheduled.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/Scheduled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/Single.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/Single.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/SpinLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/SpinLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/SynchronousQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/ThreadCAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/ThreadCAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/ThreadSafeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/ThreadSafeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/TwoThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/TwoThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/VolatileDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,26 +62,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SynchronousQueueDemo">
+  <component name="RunManager" selected="Application.prodConsumerTradition">
     <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.BlockingQueueDemo" />
+      <option name="MAIN_CLASS_NAME" value="JUC.BlockingQueueDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.CountDownLatchDemo" />
-      <module name="ProgramPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.CyclicBarrierDemo" />
+      <option name="MAIN_CLASS_NAME" value="JUC.CyclicBarrierDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.SemaphoreDemo" />
+      <option name="MAIN_CLASS_NAME" value="JUC.SemaphoreDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +103,24 @@
       </method>
     </configuration>
     <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.SynchronousQueueDemo" />
+      <option name="MAIN_CLASS_NAME" value="JUC.SynchronousQueueDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="JUC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prodConsumerTradition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.prodConsumer.prodConsumerTradition" />
+      <module name="ProgramPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.prodConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.CyclicBarrierDemo" />
       <item itemvalue="Application.SemaphoreDemo" />
       <item itemvalue="Application.BlockingQueueDemo" />
       <item itemvalue="Application.SynchronousQueueDemo" />
+      <item itemvalue="Application.prodConsumerTradition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.prodConsumerTradition" />
         <item itemvalue="Application.SynchronousQueueDemo" />
         <item itemvalue="Application.BlockingQueueDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
         <item itemvalue="Application.CyclicBarrierDemo" />
-        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +167,7 @@
       <workItem from="1610196116083" duration="4383000" />
       <workItem from="1610240122441" duration="15000" />
       <workItem from="1610346092637" duration="3220000" />
-      <workItem from="1610349598119" duration="4189000" />
+      <workItem from="1610349598119" duration="5576000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -182,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610346380141</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="阻塞队列样例演示">
+      <created>1610360729915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610360729915</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +228,7 @@
     <MESSAGE value="volatile实例" />
     <MESSAGE value="可重入锁的样例" />
     <MESSAGE value="CountDownLatch样例演示" />
-    <option name="LAST_COMMIT_MESSAGE" value="CountDownLatch样例演示" />
+    <MESSAGE value="阻塞队列样例演示" />
+    <option name="LAST_COMMIT_MESSAGE" value="阻塞队列样例演示" />
   </component>
 </project>

@@ -1,26 +1,27 @@
-package thread;
+package JUC;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * 使用synchronized代码块实现加锁
+ * 使用AtomicInteger实现加锁操作，其内部使用CAS算法实现
  */
-public class TwoThread {
+public class ThreadCAS {
 
-    public static int count = 0;
+
+    private static AtomicInteger count = new AtomicInteger(0);
 
     public static void main(String[] args) {
-        for(int i = 0;i<2;i++){
+        for(int i = 0;i<3;i++){
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    try{
+                    try {
                         Thread.sleep(10);
                     }catch (Exception e){
                         e.printStackTrace();
                     }
-                    for(int i=0;i<100;i++){
-                        synchronized (TwoThread.class){
-                            count++;
-                        }
+                    for(int i = 0;i<100;i++){
+                        count.incrementAndGet();
                     }
                 }
             }).start();
@@ -32,5 +33,4 @@ public class TwoThread {
         }
         System.out.println(count);
     }
-
 }

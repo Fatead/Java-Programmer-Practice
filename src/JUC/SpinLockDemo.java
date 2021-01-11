@@ -1,7 +1,6 @@
-package thread;
+package JUC;
 
 import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class SpinLockDemo {
 

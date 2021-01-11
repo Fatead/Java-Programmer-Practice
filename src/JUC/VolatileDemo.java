@@ -1,7 +1,4 @@
-package thread;
-
-import java.util.ArrayList;
-import java.util.List;
+package JUC;
 
 /**
  * 验证volatile的内存可见性

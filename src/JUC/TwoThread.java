@@ -1,28 +1,26 @@
-package thread;
-
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.ReentrantLock;
+package JUC;
 
 /**
- * 使用AtomicInteger实现加锁操作，其内部使用CAS算法实现
+ * 使用synchronized代码块实现加锁
  */
-public class ThreadCAS {
+public class TwoThread {
 
-
-    private static AtomicInteger count = new AtomicInteger(0);
+    public static int count = 0;
 
     public static void main(String[] args) {
-        for(int i = 0;i<3;i++){
+        for(int i = 0;i<2;i++){
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    try {
+                    try{
                         Thread.sleep(10);
                     }catch (Exception e){
                         e.printStackTrace();
                     }
-                    for(int i = 0;i<100;i++){
-                        count.incrementAndGet();
+                    for(int i=0;i<100;i++){
+                        synchronized (TwoThread.class){
+                            count++;
+                        }
                     }
                 }
             }).start();
@@ -34,4 +32,5 @@ public class ThreadCAS {
         }
         System.out.println(count);
     }
+
 }
