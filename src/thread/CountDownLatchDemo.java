@@ -1,11 +1,16 @@
 package thread;
 
+import java.lang.management.ThreadInfo;
 import java.util.concurrent.CountDownLatch;
 
 public class CountDownLatchDemo {
 
 
     public static void main(String[] args) throws InterruptedException {
+        closeDoor();
+    }
+
+    private static void closeDoor() throws InterruptedException {
         CountDownLatch countDownLatch = new CountDownLatch(6);
         for (int i = 0; i <6 ; i++) {
             new Thread(()->{
@@ -15,6 +20,13 @@ public class CountDownLatchDemo {
         }
         countDownLatch.await();
         System.out.println(Thread.currentThread().getName() + "班长关门");
+        for (int i = 0; i < 10; i++) {
+             new Thread(()->{
+
+             },String.valueOf(i)).start();
+        }
     }
+
+
 
 }
