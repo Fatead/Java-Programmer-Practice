@@ -6,7 +6,7 @@ package JUC.prodConsumer;
  * 2.判断    干活         通知
  * 3.防止虚假唤醒机制
  */
-public class prodConsumerTradition {
+public class ProdConsumerTradition {
 
     public static void main(String[] args) {
         ShareData shareData = new ShareData();
