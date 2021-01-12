@@ -41,7 +41,6 @@ public class Fixed {
         }
     }
 
-
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         Fixed fixed = new Fixed();
         fixed.execute();

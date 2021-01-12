@@ -5,7 +5,6 @@ import java.util.concurrent.*;
 public class MyThreadPoolDemo {
 
 
-
     public static void main(String[] args) {
         ExecutorService threadPool = new ThreadPoolExecutor(2,
                 5,
