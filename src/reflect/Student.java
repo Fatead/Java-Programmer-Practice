@@ -1,6 +1,7 @@
 package reflect;
 
 public class Student {
+
     private String name;
     private int age;
     private int ID;
@@ -47,4 +48,5 @@ public class Student {
                 "age:" + this.age + "\r\n" +
                 "ID:" + this.ID;
     }
+
 }

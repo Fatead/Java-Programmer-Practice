@@ -1,4 +1,4 @@
-package JUC;
+package JUC.CAS;
 
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicStampedReference;
