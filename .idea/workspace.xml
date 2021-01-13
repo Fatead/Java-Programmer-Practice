@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JUC/waitNotify/ConditionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/waitNotify/LockSupportDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUC/waitNotify/waitNotifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/AQS/AQSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/AQS/NonReentrantLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/ABADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/CAS/ABADemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/atomic/AtomicIntegerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/AtomicReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/atomic/AtomicReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/BlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/blockingQueue/BlockingQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/CASDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/CAS/CASDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/blockingQueue/SynchronousQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/ThreadCAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/CAS/ThreadCAS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/deadLock/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/deadLock/DeadLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/tools/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/tools/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reflect/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reflect/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/SpinLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/atomic/SpinLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/prodConsumer/ProdConsumerBlockQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/prodConsumer/ProdConsumerBlockQueue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +60,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LockSupportDemo">
+  <component name="RunManager" selected="Application.AQSDemo">
+    <configuration name="AQSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.AQS.AQSDemo" />
+      <module name="ProgramPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.AQS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JUC.waitNotify.ConditionDemo" />
       <module name="ProgramPractice" />
@@ -109,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.threadPool.MyThreadPoolDemo" />
-      <module name="ProgramPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUC.threadPool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="waitNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JUC.waitNotify.waitNotifyDemo" />
       <module name="ProgramPractice" />
@@ -136,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyThreadPoolDemo" />
       <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.waitNotifyDemo" />
       <item itemvalue="Application.ConditionDemo" />
       <item itemvalue="Application.LockSupportDemo" />
+      <item itemvalue="Application.AQSDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AQSDemo" />
         <item itemvalue="Application.LockSupportDemo" />
         <item itemvalue="Application.ConditionDemo" />
         <item itemvalue="Application.waitNotifyDemo" />
         <item itemvalue="Application.DeadLockDemo" />
-        <item itemvalue="Application.MyThreadPoolDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +167,9 @@
       <workItem from="1610346092637" duration="3220000" />
       <workItem from="1610349598119" duration="14848000" />
       <workItem from="1610412105746" duration="221000" />
-      <workItem from="1610432005743" duration="10544000" />
+      <workItem from="1610432005743" duration="12398000" />
+      <workItem from="1610504607718" duration="2739000" />
+      <workItem from="1610517627146" duration="2988000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -255,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610434845219</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加LockSupport的样例">
+      <created>1610449059999</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610449059999</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +286,7 @@
     <MESSAGE value="整理线程池的代码" />
     <MESSAGE value="手写线程池的实现代码" />
     <MESSAGE value="死锁的样例Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="死锁的样例Demo" />
+    <MESSAGE value="添加LockSupport的样例" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加LockSupport的样例" />
   </component>
 </project>

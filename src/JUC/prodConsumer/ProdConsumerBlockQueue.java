@@ -5,6 +5,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * 使用阻塞队列实现生产者消费者
+ */
 public class ProdConsumerBlockQueue {
 
     static class SharedResource{
