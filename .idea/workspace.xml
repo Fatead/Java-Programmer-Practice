@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JUC/reentrantLock/ReentrantLockList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/reentrantLock/ReentrantReadWriteLockList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -166,7 +166,9 @@
       <workItem from="1610412105746" duration="221000" />
       <workItem from="1610432005743" duration="12398000" />
       <workItem from="1610504607718" duration="2739000" />
-      <workItem from="1610517627146" duration="7099000" />
+      <workItem from="1610517627146" duration="7186000" />
+      <workItem from="1610585710089" duration="21000" />
+      <workItem from="1610592314254" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -259,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610523384945</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="利用ReentrantLock实现线程安全的list">
+      <created>1610547226835</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610547226835</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +301,7 @@
     <MESSAGE value="死锁的样例Demo" />
     <MESSAGE value="添加LockSupport的样例" />
     <MESSAGE value="AQS" />
-    <option name="LAST_COMMIT_MESSAGE" value="AQS" />
+    <MESSAGE value="利用ReentrantLock实现线程安全的list" />
+    <option name="LAST_COMMIT_MESSAGE" value="利用ReentrantLock实现线程安全的list" />
   </component>
 </project>
