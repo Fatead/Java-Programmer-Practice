@@ -1,8 +1,8 @@
-package JUC;
+package JUC.threadPool;
 
 import java.util.concurrent.*;
 
-public class Cached {
+public class CachedDemo {
 
     private int taskNum = 3;
 
@@ -32,8 +32,8 @@ public class Cached {
     }
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        Cached cached = new Cached();
-        cached.execute();
+        CachedDemo cachedDemo = new CachedDemo();
+        cachedDemo.execute();
     }
 
 }

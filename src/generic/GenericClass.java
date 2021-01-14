@@ -1,5 +1,7 @@
 package generic;
 
+import java.net.URLClassLoader;
+
 public class GenericClass {
 
     static class Box<T>{

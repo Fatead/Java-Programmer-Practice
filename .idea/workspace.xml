@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JUC/reentrantLock/ReentrantReadWriteLockList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JVM/ClassLoaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JVM/CustomClassLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/Cached.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/threadPool/CachedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/reentrantLock/ReentrantLockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/lock/ReentrantLockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/reentrantLock/ReentrantReadWriteLockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/lock/ReentrantReadWriteLockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/GenericClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AQSDemo">
+  <component name="RunManager" selected="Application.ClassLoaderDemo">
     <configuration name="AQSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JUC.AQS.AQSDemo" />
       <module name="ProgramPractice" />
@@ -71,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.waitNotify.ConditionDemo" />
+    <configuration name="ClassLoaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.ClassLoaderDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.waitNotify.*" />
+          <option name="PATTERN" value="JVM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.deadLock.DeadLockDemo" />
+    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.waitNotify.ConditionDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.deadLock.*" />
+          <option name="PATTERN" value="JUC.waitNotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeadLockDemo" />
       <item itemvalue="Application.waitNotifyDemo" />
       <item itemvalue="Application.ConditionDemo" />
       <item itemvalue="Application.LockSupportDemo" />
       <item itemvalue="Application.AQSDemo" />
+      <item itemvalue="Application.ClassLoaderDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassLoaderDemo" />
         <item itemvalue="Application.AQSDemo" />
         <item itemvalue="Application.LockSupportDemo" />
         <item itemvalue="Application.ConditionDemo" />
         <item itemvalue="Application.waitNotifyDemo" />
-        <item itemvalue="Application.DeadLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +173,7 @@
       <workItem from="1610504607718" duration="2739000" />
       <workItem from="1610517627146" duration="7186000" />
       <workItem from="1610585710089" duration="21000" />
-      <workItem from="1610592314254" duration="492000" />
+      <workItem from="1610592314254" duration="4574000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -268,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610547226835</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="利用ReentrantReadWriteLock实现的线程安全的list">
+      <created>1610592811970</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610592811970</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +314,7 @@
     <MESSAGE value="添加LockSupport的样例" />
     <MESSAGE value="AQS" />
     <MESSAGE value="利用ReentrantLock实现线程安全的list" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用ReentrantLock实现线程安全的list" />
+    <MESSAGE value="利用ReentrantReadWriteLock实现的线程安全的list" />
+    <option name="LAST_COMMIT_MESSAGE" value="利用ReentrantReadWriteLock实现的线程安全的list" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package JUC.reentrantLock;
+package JUC.lock;
 
 import java.util.ArrayList;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package JUC.reentrantLock;
+package JUC.lock;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * 利用ReentrantReadWriteLock实现的线程安全的list
+ * ReentrantReadWriteLock使用AQS状态值的高16位表示获取到的读锁的个数，低16位表示获取写锁线程的可重入次数
+ * 使用CAS对其操作实现了读写分离，适合于读多写少的情况
  */
 public class ReentrantReadWriteLockList {
 
