@@ -1,5 +1,7 @@
 package JVM;
 
+import java.sql.DriverManager;
+
 /**
  * 测试Java中主要的三种类加载器：引导类加载器、扩展类加载器和系统类加载器
  *
@@ -36,8 +38,28 @@ public class ClassLoaderDemo {
         //获取不到引导类加载器，说明String使用引导类加载器进行加载 --->java 的核心类库都是使用引导类加载器进行加载
         ClassLoader stringClassLoader = String.class.getClassLoader();
         System.out.println(stringClassLoader); //null
+    }
 
 
+    /**
+     * 获取类加载器的方法
+     */
+    public void getClassLoaderWays(){
+        //1.获取当前类的ClassLoader
+        try {
+            ClassLoader classLoader = Class.forName("java.lang.String").getClassLoader();
+            System.out.println(classLoader);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        //2.获取当前线程上下文的ClassLoader
+        ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
+        System.out.println(contextClassLoader);
+
+        //3.获取系统的ClassLoader
+         ClassLoader.getSystemClassLoader().getParent();
+
+         //4.获取调用者的ClassLoader
     }
 
 }

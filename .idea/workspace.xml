@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JVM/ClassLoaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JVM/CustomClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/blockingQueue/EndExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/blockingQueue/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/blockingQueue/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JUC/blockingQueue/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JVM/HeapSpaceInitial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JVM/OOMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/InetAddressDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/Cached.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/threadPool/CachedDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/reentrantLock/ReentrantLockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/lock/ReentrantLockList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/reentrantLock/ReentrantReadWriteLockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/lock/ReentrantReadWriteLockList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generic/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/GenericClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JVM/ClassLoaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JVM/ClassLoaderDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassLoaderDemo">
+  <component name="RunManager" selected="Application.Exam">
     <configuration name="AQSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JUC.AQS.AQSDemo" />
       <module name="ProgramPractice" />
@@ -89,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.waitNotify.ConditionDemo" />
+    <configuration name="Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.blockingQueue.Exam" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.waitNotify.*" />
+          <option name="PATTERN" value="JUC.blockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockSupportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.waitNotify.LockSupportDemo" />
+    <configuration name="HeapSpaceInitial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.HeapSpaceInitial" />
       <module name="ProgramPractice" />
+      <option name="VM_PARAMETERS" value="-Xms600m -Xmx600m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.waitNotify.*" />
+          <option name="PATTERN" value="JVM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="waitNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.waitNotify.waitNotifyDemo" />
+    <configuration name="InetAddressDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.InetAddressDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.waitNotify.*" />
+          <option name="PATTERN" value="net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.waitNotifyDemo" />
-      <item itemvalue="Application.ConditionDemo" />
-      <item itemvalue="Application.LockSupportDemo" />
       <item itemvalue="Application.AQSDemo" />
       <item itemvalue="Application.ClassLoaderDemo" />
+      <item itemvalue="Application.InetAddressDemo" />
+      <item itemvalue="Application.HeapSpaceInitial" />
+      <item itemvalue="Application.Exam" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exam" />
+        <item itemvalue="Application.HeapSpaceInitial" />
+        <item itemvalue="Application.InetAddressDemo" />
         <item itemvalue="Application.ClassLoaderDemo" />
         <item itemvalue="Application.AQSDemo" />
-        <item itemvalue="Application.LockSupportDemo" />
-        <item itemvalue="Application.ConditionDemo" />
-        <item itemvalue="Application.waitNotifyDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +177,17 @@
       <workItem from="1610504607718" duration="2739000" />
       <workItem from="1610517627146" duration="7186000" />
       <workItem from="1610585710089" duration="21000" />
-      <workItem from="1610592314254" duration="4574000" />
+      <workItem from="1610592314254" duration="9690000" />
+      <workItem from="1610672117384" duration="69000" />
+      <workItem from="1610781896837" duration="2161000" />
+      <workItem from="1610852175273" duration="477000" />
+      <workItem from="1610855951314" duration="5160000" />
+      <workItem from="1610930255673" duration="86000" />
+      <workItem from="1610933552424" duration="2354000" />
+      <workItem from="1611017000435" duration="224000" />
+      <workItem from="1611023300100" duration="6550000" />
+      <workItem from="1611103484254" duration="20000" />
+      <workItem from="1611128874798" duration="2259000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -280,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610592811970</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加JVM的内容，三种类加载器">
+      <created>1610626839627</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610626839627</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +336,7 @@
     <MESSAGE value="AQS" />
     <MESSAGE value="利用ReentrantLock实现线程安全的list" />
     <MESSAGE value="利用ReentrantReadWriteLock实现的线程安全的list" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用ReentrantReadWriteLock实现的线程安全的list" />
+    <MESSAGE value="添加JVM的内容，三种类加载器" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加JVM的内容，三种类加载器" />
   </component>
 </project>
