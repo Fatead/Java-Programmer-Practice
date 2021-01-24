@@ -3,6 +3,11 @@ package JUC.threadPool;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * 线程池execute 和submit的区别
+ * 1.有无返回值
+ * 2.
+ */
 public class Cached {
 
     public static void main(String[] args) {
