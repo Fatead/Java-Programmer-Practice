@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDK-Labs/JDK-Labs.iml" filepath="$PROJECT_DIR$/JDK-Labs/JDK-Labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUC/JUC.iml" filepath="$PROJECT_DIR$/JUC/JUC.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgramPractice.iml" filepath="$PROJECT_DIR$/ProgramPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" />
     </modules>
   </component>
 </project>

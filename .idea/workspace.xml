@@ -2,10 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JUC/threadLocal/ThreadLocalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-Labs/JDK-Labs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-Labs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/stream/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/JUC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/config/WebSocketConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/MessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendToOneRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/util/WebSocketUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/websocket/WebSocketServerEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/threadPool/Cached.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/threadPool/Cached.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JUC/threadPool/CachedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUC/threadPool/CachedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/AQS/AQSDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/AQS/AQSDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/AQS/NonReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/AQS/NonReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/CAS/ABADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/CAS/ABADemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/CAS/CASDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/CAS/CASDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/CAS/ThreadCAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/CAS/ThreadCAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/CallableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/ThreadSafeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/ThreadSafeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/TwoThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/TwoThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/atomic/AtomicIntegerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/atomic/AtomicIntegerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/atomic/AtomicReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/atomic/AtomicReferenceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/atomic/SpinLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/atomic/SpinLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/blockingQueue/BlockingQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/blockingQueue/BlockingQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/blockingQueue/EndExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/blockingQueue/EndExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/blockingQueue/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/blockingQueue/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/blockingQueue/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/blockingQueue/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/blockingQueue/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/blockingQueue/SynchronousQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/blockingQueue/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/blockingQueue/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/deadLock/DeadLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/deadLock/DeadLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/lock/ReentrantLockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/lock/ReentrantLockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/lock/ReentrantReadWriteLockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/lock/ReentrantReadWriteLockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/prodConsumer/ProdConsumerBlockQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/prodConsumer/ProdConsumerBlockQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/prodConsumer/ProdConsumerTradition.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/prodConsumer/ProdConsumerTradition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/prodConsumer/ShareData.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/prodConsumer/ShareData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/prodConsumer/SyncAndReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/prodConsumer/SyncAndReentrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/threadLocal/ThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/threadLocal/ThreadLocalDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/threadPool/Cached.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/threadPool/Cached.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/threadPool/CachedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/threadPool/CachedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/threadPool/Fixed.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/threadPool/Fixed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/threadPool/MyThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/threadPool/MyThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/threadPool/Scheduled.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/threadPool/Scheduled.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/threadPool/Single.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/threadPool/Single.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/threadPool/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/threadPool/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/tools/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/tools/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/tools/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/tools/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/tools/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/tools/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/waitNotify/ConditionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/waitNotify/ConditionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/waitNotify/LockSupportDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/waitNotify/LockSupportDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JUC/waitNotify/waitNotifyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/src/main/java/JUC/waitNotify/waitNotifyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JVM/ClassLoaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/JVM/ClassLoaderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JVM/CustomClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/JVM/CustomClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JVM/HeapSpaceInitial.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/JVM/HeapSpaceInitial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JVM/OOMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/JVM/OOMTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/map/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/container/map/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/container/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/container/map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/generic/GenericClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/GenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/generic/GenericMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/InetAddressDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/net/InetAddressDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflect/ReflectTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/reflect/ReflectTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflect/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/src/main/java/reflect/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,15 +201,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1fqjGNEEIWd09xvHJLefFDGPZGJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JDK-Labs/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="JUC" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream" />
+      <recent name="net" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zero\IdeaProjects\ProgramPractice\JDK-Labs\src\main\java" />
+      <recent name="C:\Users\Zero\IdeaProjects\ProgramPractice\JUC\src\main\java" />
+      <recent name="C:\Users\Zero\IdeaProjects\ProgramPractice\SpringBoot-Labs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,10 +250,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalDemo">
+  <component name="RunManager" selected="Application.StreamDemo">
     <configuration name="ClassLoaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JVM.ClassLoaderDemo" />
       <module name="ProgramPractice" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails -Xms10m -Xmx10m -XX:SurvivorRatio=4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JVM.*" />
@@ -75,11 +266,11 @@
       </method>
     </configuration>
     <configuration name="Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.blockingQueue.Exam" />
+      <option name="MAIN_CLASS_NAME" value="JUC.JUC.blockingQueue.Exam" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.blockingQueue.*" />
+          <option name="PATTERN" value="JUC.JUC.blockingQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +292,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InetAddressDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.InetAddressDemo" />
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.StreamDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +306,11 @@
       </method>
     </configuration>
     <configuration name="ThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.threadLocal.ThreadLocalDemo" />
+      <option name="MAIN_CLASS_NAME" value="JUC.JUC.threadLocal.ThreadLocalDemo" />
       <module name="ProgramPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.threadLocal.*" />
+          <option name="PATTERN" value="JUC.JUC.threadLocal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,20 +318,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot-Labs" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lab-Kafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ClassLoaderDemo" />
-      <item itemvalue="Application.InetAddressDemo" />
       <item itemvalue="Application.HeapSpaceInitial" />
       <item itemvalue="Application.Exam" />
       <item itemvalue="Application.ThreadLocalDemo" />
+      <item itemvalue="Application.StreamDemo" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamDemo" />
+        <item itemvalue="Application.ClassLoaderDemo" />
         <item itemvalue="Application.ThreadLocalDemo" />
         <item itemvalue="Application.Exam" />
         <item itemvalue="Application.HeapSpaceInitial" />
-        <item itemvalue="Application.InetAddressDemo" />
-        <item itemvalue="Application.ClassLoaderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +393,13 @@
       <workItem from="1611189842645" duration="124000" />
       <workItem from="1611460186171" duration="5775000" />
       <workItem from="1611537026561" duration="9000" />
-      <workItem from="1611541788551" duration="642000" />
+      <workItem from="1611541788551" duration="1855000" />
+      <workItem from="1611621723459" duration="33000" />
+      <workItem from="1611625813582" duration="4346000" />
+      <workItem from="1611709843958" duration="9000" />
+      <workItem from="1611726747395" duration="82000" />
+      <workItem from="1612231975003" duration="1097000" />
+      <workItem from="1617265373956" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -314,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611469871802</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="增加ThreadLocal的Demo">
+      <created>1611542458595</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611542458595</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +554,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="分别实现四种线程池" />
     <MESSAGE value="volatile实例" />
     <MESSAGE value="可重入锁的样例" />
@@ -352,6 +573,7 @@
     <MESSAGE value="添加JVM的内容，三种类加载器" />
     <MESSAGE value="DelayedQueue相关的代码" />
     <MESSAGE value="HashMap源码的一种简单实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMap源码的一种简单实现" />
+    <MESSAGE value="增加ThreadLocal的Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加ThreadLocal的Demo" />
   </component>
 </project>

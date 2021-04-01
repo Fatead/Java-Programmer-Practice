@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/JUC/pom.xml" />
+        <option value="$PROJECT_DIR$/JDK-Labs/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectKey">
     <option name="state" value="project://e2804f05-5315-4fc6-a121-c522a6c26470" />
   </component>
