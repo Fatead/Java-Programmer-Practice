@@ -17,16 +17,18 @@ public class AuthResponse implements Message {
         return code;
     }
 
-    public void setCode(Integer code) {
+    public AuthResponse setCode(Integer code) {
         this.code = code;
+        return this;
     }
 
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
+    public AuthResponse setMessage(String message) {
         this.message = message;
+        return this;
     }
 
 }

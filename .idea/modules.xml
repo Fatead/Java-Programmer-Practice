@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" filepath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" filepath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUC/JUC.iml" filepath="$PROJECT_DIR$/JUC/JUC.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgramPractice.iml" filepath="$PROJECT_DIR$/ProgramPractice.iml" />
@@ -9,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/demo (1).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/demo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/demo (2).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/demo (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/demo (3).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/demo (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUC/fudan.edu.iml" filepath="$PROJECT_DIR$/JUC/fudan.edu.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" />

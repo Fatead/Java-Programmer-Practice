@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendToUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/UserJoinNoticeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/src/main/java/Singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/src/main/java/Singleton/SingletonHungry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC/fudan.edu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/AuthMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/SendToAllHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/SendToOneHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendToAllRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/websocket.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendToOneRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendToOneRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC/JUC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/JUC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/AuthResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/util/WebSocketUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/util/WebSocketUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/websocket/WebSocketServerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/websocket/WebSocketServerEndpoint.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,10 +185,10 @@
       <item itemvalue="Application.CallableDemo" />
       <item itemvalue="Application.ThreadSafeList" />
       <item itemvalue="Application.ABADemo" />
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Application.AQSDemo" />
       <item itemvalue="Application.Cached" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.DemoApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -235,7 +248,8 @@
       <workItem from="1611709843958" duration="9000" />
       <workItem from="1611726747395" duration="82000" />
       <workItem from="1612231975003" duration="1097000" />
-      <workItem from="1617265373956" duration="5503000" />
+      <workItem from="1617265373956" duration="11201000" />
+      <workItem from="1617284871979" duration="1767000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -398,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617273433718</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="整理IDEA项目结构">
+      <created>1617274208103</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1617274208103</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
