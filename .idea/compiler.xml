@@ -15,20 +15,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JDK-Labs" target="6" />
-      <module name="JUC" target="1.5" />
-      <module name="lab-Kafka" target="11" />
+      <module name="JDK-Labs" target="11" />
+      <module name="JUC" target="11" />
       <module name="labs-ElasticSearch" target="11" />
       <module name="labs-kafka" target="11" />
       <module name="labs-websocket" target="11" />
-      <module name="SpringBoot-labs" target="1.5" />
-      <module name="SpringBoot-Labs" target="11" />
+      <module name="SpringBoot-labs" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SpringBoot-Labs" options="-parameters" />
-      <module name="lab-Kafka" options="-parameters" />
       <module name="labs-ElasticSearch" options="-parameters" />
       <module name="labs-kafka" options="-parameters" />
       <module name="labs-websocket" options="-parameters" />
