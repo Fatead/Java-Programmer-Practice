@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/JUC/fudan.edu.iml" filepath="$PROJECT_DIR$/JUC/fudan.edu.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-redis/labs-redis.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/labs-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" />
     </modules>
   </component>

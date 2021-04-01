@@ -11,6 +11,7 @@
 + ElasticSearch
 + Kafka
 + WebSocket
++ redis
 
 ### 3. 用Java实现的各种设计模式
 + 单例模式（饿汉式、懒汉式）

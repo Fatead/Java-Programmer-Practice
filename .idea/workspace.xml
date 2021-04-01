@@ -2,23 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/src/main/java/Singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/src/main/java/Singleton/SingletonHungry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUC/fudan.edu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/AuthMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/SendToAllHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/SendToOneHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendToAllRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/websocket.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/java/com/example/demo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/java/com/example/demo/service/RedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/java/com/example/demo/service/RedisServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC/JUC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/JUC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/AuthResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/util/WebSocketUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/util/WebSocketUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/SendToAllHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/SendToAllHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/websocket/WebSocketServerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/websocket/WebSocketServerEndpoint.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,6 +89,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JDK-Labs/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -80,6 +101,9 @@
       <recent name="JUC" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo.service" />
+      <recent name="com.example.demo.config" />
+      <recent name="Singleton" />
       <recent name="stream" />
       <recent name="net" />
     </key>
@@ -249,7 +273,7 @@
       <workItem from="1611726747395" duration="82000" />
       <workItem from="1612231975003" duration="1097000" />
       <workItem from="1617265373956" duration="11201000" />
-      <workItem from="1617284871979" duration="1767000" />
+      <workItem from="1617284871979" duration="3736000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -419,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617274208103</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="1.增加单例模式的代码。&#10;2.完善websocket">
+      <created>1617286682988</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617286682988</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,6 +493,7 @@
     <MESSAGE value="重新整理项目的架构" />
     <MESSAGE value="修改readme文件" />
     <MESSAGE value="整理IDEA项目结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理IDEA项目结构" />
+    <MESSAGE value="1.增加单例模式的代码。&#10;2.完善websocket" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.增加单例模式的代码。&#10;2.完善websocket" />
   </component>
 </project>

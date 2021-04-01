@@ -25,16 +25,18 @@ public class SendResponse implements Message{
         return msgId;
     }
 
-    public void setMsgId(String msgId) {
+    public SendResponse setMsgId(String msgId) {
         this.msgId = msgId;
+        return this;
     }
 
     public Integer getCode() {
         return code;
     }
 
-    public void setCode(Integer code) {
+    public SendResponse setCode(Integer code) {
         this.code = code;
+        return this;
     }
 
     public String getMessage() {

@@ -2,6 +2,8 @@ package com.example.demo.websocket;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.example.demo.handler.MessageHandler;
+import com.example.demo.message.AuthRequest;
 import com.example.demo.message.Message;
 import com.example.demo.util.WebSocketUtil;
 import org.slf4j.Logger;
@@ -11,11 +13,14 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.CollectionUtils;
+
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
@@ -35,8 +40,20 @@ public class WebSocketServerEndpoint implements InitializingBean {
      * websocket连接建立时会调用这个函数onOpen()
      */
     @OnOpen
-    public void onOpen(){
-
+    public void onOpen(Session session, EndpointConfig config){
+        logger.info("[onOpen][session({}) 接入]", session);
+        // 解析 accessToken
+        List<String> accessTokenValues = session.getRequestParameterMap().get("accessToken");
+        String accessToken = !CollectionUtils.isEmpty(accessTokenValues) ? accessTokenValues.get(0) : null;
+        // 创建 AuthRequest 消息类型
+        AuthRequest authRequest = new AuthRequest().setAccessToken(accessToken);
+        // 获得消息处理器
+        MessageHandler<AuthRequest> messageHandler = HANDLERS.get(AuthRequest.TYPE);
+        if (messageHandler == null) {
+            logger.error("[onOpen][认证消息类型，不存在消息处理器]");
+            return;
+        }
+        messageHandler.execute(session, authRequest);
     }
 
     /**

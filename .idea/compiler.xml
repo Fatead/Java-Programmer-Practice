@@ -10,6 +10,7 @@
         <module name="Desgin-Pattern-Java" />
         <module name="fudan.edu" />
         <module name="JDK-Labs" />
+        <module name="labs-redis" />
         <module name="SpringBoot-labs" />
         <module name="JUC" />
         <module name="labs-ElasticSearch" />
@@ -23,6 +24,7 @@
       <module name="JUC" target="11" />
       <module name="labs-ElasticSearch" target="11" />
       <module name="labs-kafka" target="11" />
+      <module name="labs-redis" target="11" />
       <module name="labs-websocket" target="11" />
       <module name="SpringBoot-labs" target="1.5" />
     </bytecodeTargetLevel>
@@ -31,6 +33,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="labs-ElasticSearch" options="-parameters" />
       <module name="labs-kafka" options="-parameters" />
+      <module name="labs-redis" options="-parameters" />
       <module name="labs-websocket" options="-parameters" />
     </option>
   </component>
