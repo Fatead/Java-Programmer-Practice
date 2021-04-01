@@ -15,7 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JDK-Labs" target="1.5" />
+      <module name="JDK-Labs" target="6" />
       <module name="JUC" target="1.5" />
       <module name="lab-Kafka" target="11" />
       <module name="labs-ElasticSearch" target="11" />
