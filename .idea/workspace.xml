@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-Labs/JDK-Labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/JDK-Labs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-Labs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-Labs/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -237,7 +234,7 @@
       <workItem from="1611709843958" duration="9000" />
       <workItem from="1611726747395" duration="82000" />
       <workItem from="1612231975003" duration="1097000" />
-      <workItem from="1617265373956" duration="2805000" />
+      <workItem from="1617265373956" duration="3803000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -379,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617267855221</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="修改readme文件">
+      <created>1617271307270</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1617271307270</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +424,7 @@
     <MESSAGE value="HashMap源码的一种简单实现" />
     <MESSAGE value="增加ThreadLocal的Demo" />
     <MESSAGE value="重新整理项目的架构" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新整理项目的架构" />
+    <MESSAGE value="修改readme文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改readme文件" />
   </component>
 </project>
