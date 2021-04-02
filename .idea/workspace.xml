@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/buffer/CreateBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/buffer/FloatBufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/buffer/buffer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/ReadFileByChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/ScatterAndGather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/io/CopyFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/resources/ioFile/testIn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/resources/ioFile/testOut.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/channel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/selector/SelectorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/selector/selector.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linux-knowledge/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/biosocket/multiclient/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/biosocket/multiclient/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/Transfers.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/Transfers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,20 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadFileByChannel">
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.biosocket.pseudoasyn.Client" />
-      <module name="JDK-Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.biosocket.pseudoasyn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Transfers">
     <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.nio.io.CopyFile" />
       <module name="JDK-Labs" />
@@ -167,6 +148,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Transfers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.nio.channel.Transfers" />
+      <module name="JDK-Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.nio.channel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBoot-Labs" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Application" />
@@ -182,21 +176,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.FloatBufferDemo" />
       <item itemvalue="Application.CopyFile" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Application.CreateBuffer" />
       <item itemvalue="Application.ReadFileByChannel" />
+      <item itemvalue="Application.Transfers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Transfers" />
         <item itemvalue="Application.ReadFileByChannel" />
         <item itemvalue="Application.CreateBuffer" />
         <item itemvalue="Application.CopyFile" />
         <item itemvalue="Application.FloatBufferDemo" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +244,7 @@
       <workItem from="1612231975003" duration="1097000" />
       <workItem from="1617265373956" duration="11201000" />
       <workItem from="1617284871979" duration="3930000" />
-      <workItem from="1617329710193" duration="8038000" />
+      <workItem from="1617329710193" duration="15364000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -434,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617288705465</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="增加NIO Buffer、Channel相关的代码">
+      <created>1617341465977</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1617341465977</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,6 +480,7 @@
     <MESSAGE value="整理IDEA项目结构" />
     <MESSAGE value="1.增加单例模式的代码。&#10;2.完善websocket" />
     <MESSAGE value="增加redis相关的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加redis相关的代码" />
+    <MESSAGE value="增加NIO Buffer、Channel相关的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加NIO Buffer、Channel相关的代码" />
   </component>
 </project>
