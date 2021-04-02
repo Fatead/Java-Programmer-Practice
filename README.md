@@ -20,6 +20,15 @@
 ### 3. 用Java实现的各种设计模式
 + 单例模式（饿汉式、懒汉式）
 
+### 4. Linux的基础知识
++ [Linux下的磁盘分区](https://github.com/Fatead/Java-Programmer-Practice/blob/master/Linux-knowledge/src/main/java/md/Linux下的磁盘分区.md)
++ [Linux下的进程](https://github.com/Fatead/Java-Programmer-Practice/blob/master/Linux-knowledge/src/main/java/md/Linux下的进程.md)
++ [Linux定时任务调度](https://github.com/Fatead/Java-Programmer-Practice/blob/master/Linux-knowledge/src/main/java/md/Linux定时任务调度.md)
++ [Linux的七个运行级别](https://github.com/Fatead/Java-Programmer-Practice/blob/master/Linux-knowledge/src/main/java/md/Linux的七个运行级别.md)
++ [Linux进程启动顺序](https://github.com/Fatead/Java-Programmer-Practice/blob/master/Linux-knowledge/src/main/java/md/Linux进程启动顺序.md)
++ [深入理解Linux下的守护进程](https://github.com/Fatead/Java-Programmer-Practice/blob/master/Linux-knowledge/src/main/java/md/深入理解Linux下的守护进程.md)
++ [理解Linux配置文件](https://github.com/Fatead/Java-Programmer-Practice/blob/master/Linux-knowledge/src/main/java/md/理解Linux配置文件.md)
+
 ## 下一阶段更新计划
 + 增加JDK源码的注释 + 教程
 + 加入SpringCloud的教程
