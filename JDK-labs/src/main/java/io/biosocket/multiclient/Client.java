@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 /**
  * @Author zmr
+ * 使用BIO模式实现socket通信
  */
 public class Client {
     public static void main(String[] args) throws IOException {

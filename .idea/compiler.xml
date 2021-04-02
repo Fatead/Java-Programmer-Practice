@@ -18,15 +18,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Desgin-Pattern-Java" target="1.5" />
-      <module name="fudan.edu" target="6" />
-      <module name="JDK-Labs" target="6" />
+      <module name="Desgin-Pattern-Java" target="11" />
+      <module name="fudan.edu" target="11" />
+      <module name="JDK-Labs" target="11" />
       <module name="JUC" target="11" />
       <module name="labs-ElasticSearch" target="11" />
       <module name="labs-kafka" target="11" />
       <module name="labs-redis" target="11" />
       <module name="labs-websocket" target="11" />
-      <module name="SpringBoot-labs" target="1.5" />
+      <module name="SpringBoot-labs" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

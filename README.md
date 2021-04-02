@@ -6,6 +6,10 @@
 + Java反射机制
 + JUC (线程池、锁机制、同步工具类、生产者消费者)
 + Java虚拟机 JVM
++ NIO 
+    - buffer
+    - Channel
+    - selector
 
 ### 2. SpringBoot
 + ElasticSearch

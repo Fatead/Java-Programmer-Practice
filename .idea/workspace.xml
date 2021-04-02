@@ -2,44 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/java/com/example/demo/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/java/com/example/demo/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/java/com/example/demo/service/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/buffer/CreateBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/buffer/FloatBufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/buffer/buffer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/ReadFileByChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/ScatterAndGather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/io/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/resources/ioFile/testIn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/resources/ioFile/testOut.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/SendToAllHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/handler/SendToAllHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/message/SendResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/websocket/WebSocketServerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java/com/example/demo/websocket/WebSocketServerEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/biosocket/multiclient/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/biosocket/multiclient/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,13 +100,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cached">
-    <configuration name="ABADemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.CAS.ABADemo" />
-      <module name="JUC" />
+  <component name="RunManager" selected="Application.ReadFileByChannel">
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.biosocket.pseudoasyn.Client" />
+      <module name="JDK-Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.AQS.*" />
+          <option name="PATTERN" value="io.biosocket.pseudoasyn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AQSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.AQS.AQSDemo" />
-      <module name="JUC" />
+    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.nio.io.CopyFile" />
+      <module name="JDK-Labs" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Zero\IdeaProjects\ProgramPractice\JDK-labs\src\main\resources\ioFile\testIn.txt C:\Users\Zero\IdeaProjects\ProgramPractice\JDK-labs\src\main\resources\ioFile\testOut.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.AQS.*" />
+          <option name="PATTERN" value="io.nio.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cached" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.threadPool.Cached" />
-      <module name="JUC" />
+    <configuration name="CreateBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.nio.buffer.CreateBuffer" />
+      <module name="JDK-Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.threadPool.*" />
+          <option name="PATTERN" value="io.nio.buffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.CallableDemo" />
-      <module name="JUC" />
+    <configuration name="FloatBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.nio.buffer.FloatBufferDemo" />
+      <module name="JDK-Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.*" />
+          <option name="PATTERN" value="io.nio.buffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadSafeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUC.ThreadSafeList" />
-      <module name="JUC" />
+    <configuration name="ReadFileByChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.nio.channel.ReadFileByChannel" />
+      <module name="JDK-Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUC.*" />
+          <option name="PATTERN" value="io.nio.channel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,21 +182,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CallableDemo" />
-      <item itemvalue="Application.ThreadSafeList" />
-      <item itemvalue="Application.ABADemo" />
-      <item itemvalue="Application.AQSDemo" />
-      <item itemvalue="Application.Cached" />
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.FloatBufferDemo" />
+      <item itemvalue="Application.CopyFile" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Application.CreateBuffer" />
+      <item itemvalue="Application.ReadFileByChannel" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Cached" />
-        <item itemvalue="Application.ThreadSafeList" />
-        <item itemvalue="Application.CallableDemo" />
-        <item itemvalue="Application.AQSDemo" />
-        <item itemvalue="Application.ABADemo" />
+        <item itemvalue="Application.ReadFileByChannel" />
+        <item itemvalue="Application.CreateBuffer" />
+        <item itemvalue="Application.CopyFile" />
+        <item itemvalue="Application.FloatBufferDemo" />
+        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +249,8 @@
       <workItem from="1611726747395" duration="82000" />
       <workItem from="1612231975003" duration="1097000" />
       <workItem from="1617265373956" duration="11201000" />
-      <workItem from="1617284871979" duration="3736000" />
+      <workItem from="1617284871979" duration="3930000" />
+      <workItem from="1617329710193" duration="8038000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -450,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617286682988</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="增加redis相关的代码">
+      <created>1617288705465</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1617288705465</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,6 +478,7 @@
     <MESSAGE value="修改readme文件" />
     <MESSAGE value="整理IDEA项目结构" />
     <MESSAGE value="1.增加单例模式的代码。&#10;2.完善websocket" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.增加单例模式的代码。&#10;2.完善websocket" />
+    <MESSAGE value="增加redis相关的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加redis相关的代码" />
   </component>
 </project>
