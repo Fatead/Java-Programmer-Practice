@@ -1,4 +1,9 @@
 # Java工程师成长之路
+[![Build Status](https://travis-ci.com/Byron4j/1024interview.svg?branch=develop)](https://travis-ci.com/Byron4j/1024interview)
+![GitHub release](https://img.shields.io/github/release-pre/byron4j/1024interview.svg)
+[![codecov](https://scan.coverity.com/projects/17857/badge.svg)](https://scan.coverity.com/projects/17857)
+![APM](https://img.shields.io/apm/l/vim-mode.svg?label=License&style=popout)
+
 本项目致力于为Java后端开发程序员提供全套的学习教程和学习路线，包含JDK源码、Spring全家桶和各种中间件的使用教程和源码解析
 ## 目录
 ### 1. JDK
@@ -32,3 +37,7 @@
 ## 下一阶段更新计划
 + 增加JDK源码的注释 + 教程
 + 加入SpringCloud的教程
+
+## Fork & Star
+[![Stargazers repo roster for @Fatead/Java-Programmer-Practice](https://reporoster.com/stars/Fatead/Java-Programmer-Practice)](https://github.com/Fatead/Java-Programmer-Practice/stargazers)
+[![Forkers repo roster for @Fatead/Java-Programmer-Practice](https://reporoster.com/forks/Fatead/Java-Programmer-Practice)](https://github.com/Fatead/Java-Programmer-Practice/network/members)

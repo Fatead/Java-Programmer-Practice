@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux-knowledge/src/main/java/md/Linux下的磁盘分区.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux-knowledge/src/main/java/md/Linux下的进程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux-knowledge/src/main/java/md/Linux定时任务调度.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux-knowledge/src/main/java/md/Linux的七个运行级别.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux-knowledge/src/main/java/md/Linux进程启动顺序.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux-knowledge/src/main/java/md/深入理解Linux下的守护进程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linux-knowledge/src/main/java/md/理解Linux配置文件.md" afterDir="false" />
+    <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="修改README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -248,7 +240,7 @@
       <workItem from="1612231975003" duration="1097000" />
       <workItem from="1617265373956" duration="11201000" />
       <workItem from="1617284871979" duration="3930000" />
-      <workItem from="1617329710193" duration="16180000" />
+      <workItem from="1617329710193" duration="17402000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -446,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617350035446</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="更新Linux文章">
+      <created>1617350942112</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1617350942112</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="volatile实例" />
     <MESSAGE value="可重入锁的样例" />
     <MESSAGE value="CountDownLatch样例演示" />
     <MESSAGE value="阻塞队列样例演示" />
@@ -492,6 +490,7 @@
     <MESSAGE value="增加redis相关的代码" />
     <MESSAGE value="增加NIO Buffer、Channel相关的代码" />
     <MESSAGE value="更新NIO相关的代码和文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新NIO相关的代码和文章" />
+    <MESSAGE value="更新Linux文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新Linux文章" />
   </component>
 </project>
