@@ -29,6 +29,11 @@ public class Transfers {
         }
     }
 
+    /**
+     * TransferTo底层使用了零拷贝
+     * @param fromFilePath
+     * @param toFilePath
+     */
     public static void transferDataTo(String fromFilePath,String toFilePath){
         try {
             RandomAccessFile fromFile = new RandomAccessFile(fromFilePath,"rw");

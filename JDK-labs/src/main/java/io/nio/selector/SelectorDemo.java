@@ -20,8 +20,11 @@ public class SelectorDemo {
         SelectionKey key = serverSocketChannel.register(selector,SelectionKey.OP_READ);
         //轮询各个channel,检查是否有已经准备好可以进行读写的channel
         while (true){
+            //返回有事件发生的通道的个数
             int readyChannels = selector.selectNow();
+            //如果所有的通道都没有事件发生，直接返回
             if(readyChannels == 0)continue;
+            //得到有事件发生的selectionKey
             Set<SelectionKey> selectionKeys = selector.selectedKeys();
             Iterator<SelectionKey> keyIterator = selectionKeys.iterator();
             while (keyIterator.hasNext()){

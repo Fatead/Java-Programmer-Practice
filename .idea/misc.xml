@@ -12,6 +12,10 @@
         <option value="$PROJECT_DIR$/Desgin-Pattern-Java/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/labs-redis/pom.xml" />
         <option value="$PROJECT_DIR$/Linux-knowledge/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/labs-netty/pom.xml" />
       </list>
     </option>
   </component>

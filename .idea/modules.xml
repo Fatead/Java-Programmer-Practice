@@ -14,8 +14,12 @@
       <module fileurl="file://$PROJECT_DIR$/JUC/fudan.edu.iml" filepath="$PROJECT_DIR$/JUC/fudan.edu.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/labs-netty.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/labs-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-redis/labs-redis.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/labs-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/netty-client.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/netty-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/netty-common.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/netty-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/netty-server.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/netty-server.iml" />
     </modules>
   </component>
 </project>

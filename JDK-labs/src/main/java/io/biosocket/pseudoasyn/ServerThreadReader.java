@@ -27,6 +27,13 @@ public class ServerThreadReader implements Runnable{
             }
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            try {
+                System.out.println("关闭socket连接");
+                socket.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

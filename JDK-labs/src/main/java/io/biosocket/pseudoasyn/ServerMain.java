@@ -6,9 +6,12 @@ import java.net.Socket;
 import java.util.concurrent.*;
 
 /**
+ * 基于线程池的BIO
  * @Author zmr
  */
 public class ServerMain {
+
+
     public static void main(String[] args) throws IOException {
         System.out.println("服务器启动");
         ServerSocket ss = new ServerSocket(9999);
@@ -27,4 +30,5 @@ public class ServerMain {
             es.execute(new ServerThreadReader(socket));
         }
     }
+
 }

@@ -25,3 +25,11 @@ SelectionKey key = channel.register(selector, SelectionKey.OP_PEAD);
 
 ### SelectionKey 
 一个SelectionKey表示一个特定的通道对象和一个特定的选择器对象之间的注册关系
+
+### selector相关方法说明
+
+selector.select()  ->阻塞
+selector.select(1000)   -> 阻塞1000毫秒，在1000毫秒后返回
+selector.wakeup()  -> 唤醒selector
+selector.selectorNow() -> 不阻塞，直接返回
+  

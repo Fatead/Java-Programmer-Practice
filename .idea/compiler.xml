@@ -7,15 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="labs-kafka" />
-        <module name="Desgin-Pattern-Java" />
+        <module name="JUC" />
+        <module name="netty-common" />
         <module name="Linux-knowledge" />
-        <module name="fudan.edu" />
+        <module name="netty-client" />
+        <module name="Desgin-Pattern-Java" />
         <module name="JDK-Labs" />
         <module name="labs-redis" />
         <module name="SpringBoot-labs" />
-        <module name="JUC" />
+        <module name="fudan.edu" />
         <module name="labs-ElasticSearch" />
         <module name="labs-websocket" />
+      </profile>
+      <profile name="Annotation profile for demo" enabled="true">
+        <sourceOutputDir name="../netty-client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../netty-client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="netty-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,9 +33,13 @@
       <module name="JUC" target="11" />
       <module name="labs-ElasticSearch" target="11" />
       <module name="labs-kafka" target="11" />
+      <module name="labs-netty" target="1.8" />
       <module name="labs-redis" target="11" />
       <module name="labs-websocket" target="11" />
       <module name="Linux-knowledge" target="1.5" />
+      <module name="netty-client" target="11" />
+      <module name="netty-common" target="11" />
+      <module name="netty-server" target="11" />
       <module name="SpringBoot-labs" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -35,8 +47,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="labs-ElasticSearch" options="-parameters" />
       <module name="labs-kafka" options="-parameters" />
+      <module name="labs-netty" options="-parameters" />
       <module name="labs-redis" options="-parameters" />
       <module name="labs-websocket" options="-parameters" />
+      <module name="netty-client" options="-parameters" />
+      <module name="netty-common" options="-parameters" />
+      <module name="netty-server" options="-parameters" />
     </option>
   </component>
 </project>
