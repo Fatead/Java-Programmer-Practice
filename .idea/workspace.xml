@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/buf/ByteBufCompositeBufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/buf/ByteBufDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/codec/codec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationServerInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC/JUC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/JUC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationServer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ByteBufCompositeBufferDemo">
+  <component name="RunManager" selected="Application.SerializationClient">
     <configuration name="ByteBufCompositeBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.netty.buf.ByteBufCompositeBufferDemo" />
       <module name="JDK-Labs" />
@@ -141,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.nio.chatsystem.ChatServer" />
+    <configuration name="SerializationClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.serialization.SerializationClient" />
       <module name="JDK-Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.nio.chatsystem.*" />
+          <option name="PATTERN" value="io.netty.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.nio.selector.NIOClient" />
+    <configuration name="SerializationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.serialization.SerializationServer" />
       <module name="JDK-Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.nio.selector.*" />
+          <option name="PATTERN" value="io.netty.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,21 +178,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NIOClient" />
-      <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.ChatClient" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Application.ByteBufDemo" />
       <item itemvalue="Application.ByteBufCompositeBufferDemo" />
+      <item itemvalue="Application.SerializationServer" />
+      <item itemvalue="Application.SerializationClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializationClient" />
+        <item itemvalue="Application.SerializationServer" />
         <item itemvalue="Application.ByteBufCompositeBufferDemo" />
         <item itemvalue="Application.ByteBufDemo" />
         <item itemvalue="Application.ChatClient" />
-        <item itemvalue="Application.ChatServer" />
-        <item itemvalue="Application.NIOClient" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +256,7 @@
       <workItem from="1617623679694" duration="1340000" />
       <workItem from="1617670220052" duration="11000" />
       <workItem from="1618482889576" duration="6803000" />
-      <workItem from="1618748242834" duration="2882000" />
+      <workItem from="1618748242834" duration="4821000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -486,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618495810594</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="增加netty Codec和ByteBuf的样例代码">
+      <created>1618751164574</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1618751164574</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +510,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="生产者消费者样例演示" />
     <MESSAGE value="利用condition实现精确唤醒" />
     <MESSAGE value="使用阻塞队列实现的生产者消费者" />
     <MESSAGE value="整理线程池的代码" />
@@ -532,6 +534,7 @@
     <MESSAGE value="修改README" />
     <MESSAGE value="增加NIO server相关的内容" />
     <MESSAGE value="增加AIO和Netty的相关内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加AIO和Netty的相关内容" />
+    <MESSAGE value="增加netty Codec和ByteBuf的样例代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加netty Codec和ByteBuf的样例代码" />
   </component>
 </project>

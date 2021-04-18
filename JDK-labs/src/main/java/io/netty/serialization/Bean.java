@@ -12,18 +12,27 @@ public class Bean implements Serializable {
         return age;
     }
 
-    public void setAge(int age) {
+    public Bean setAge(int age) {
         this.age = age;
+        return this;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public Bean setName(String name) {
         this.name = name;
+        return this;
     }
 
     private String name;
 
+    @Override
+    public String toString() {
+        return "Bean{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
