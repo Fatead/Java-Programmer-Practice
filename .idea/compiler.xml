@@ -8,16 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="labs-kafka" />
         <module name="JUC" />
-        <module name="netty-common" />
+        <module name="fudan.edu" />
         <module name="Linux-knowledge" />
+        <module name="labs-websocket" />
         <module name="netty-client" />
-        <module name="Desgin-Pattern-Java" />
         <module name="JDK-Labs" />
         <module name="labs-redis" />
         <module name="SpringBoot-labs" />
-        <module name="fudan.edu" />
+        <module name="netty-common" />
         <module name="labs-ElasticSearch" />
-        <module name="labs-websocket" />
+        <module name="Desgin-Pattern-Java" />
       </profile>
       <profile name="Annotation profile for demo" enabled="true">
         <sourceOutputDir name="../netty-client/target/generated-sources/annotations" />
@@ -27,20 +27,20 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Desgin-Pattern-Java" target="1.5" />
-      <module name="fudan.edu" target="6" />
-      <module name="JDK-Labs" target="6" />
+      <module name="Desgin-Pattern-Java" target="11" />
+      <module name="fudan.edu" target="11" />
+      <module name="JDK-Labs" target="11" />
       <module name="JUC" target="11" />
       <module name="labs-ElasticSearch" target="11" />
       <module name="labs-kafka" target="11" />
-      <module name="labs-netty" target="1.8" />
+      <module name="labs-netty" target="11" />
       <module name="labs-redis" target="11" />
       <module name="labs-websocket" target="11" />
-      <module name="Linux-knowledge" target="1.5" />
+      <module name="Linux-knowledge" target="11" />
       <module name="netty-client" target="11" />
       <module name="netty-common" target="11" />
       <module name="netty-server" target="11" />
-      <module name="SpringBoot-labs" target="1.5" />
+      <module name="SpringBoot-labs" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

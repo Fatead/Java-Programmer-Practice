@@ -1,97 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="增加NIO server相关的内容">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_71.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_50_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_58_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/aio/ServerSocketChannelHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/aio/SocketChannelReadHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/aio/SocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/aio/aio.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/buffer/MappedBufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/buffer/NIOByteBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/buffer/ReadOnlyBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/DatagramChannelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/chatsystem/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/chatsystem/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/selector/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/selector/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/WriteProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/http/HttpHeaders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/http/HttpMessageReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/http/HttpMessageReaderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/http/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/messgae/IMessageReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/messgae/IMessageReaderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/messgae/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/messgae/MessageWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java/com/example/demo/codec/Invocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java/com/example/demo/codec/InvocationDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java/com/example/demo/codec/InvocationEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java/com/example/demo/dispatcher/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java/com/example/demo/dispatcher/MessageDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java/com/example/demo/dispatcher/MessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java/com/example/demo/dispatcher/MessageHandlerContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java/com/example/demo/dispatcher/netty.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/src/main/java/com/example/demo/config/NettyServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/src/main/java/com/example/demo/message/auth/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/src/main/java/com/example/demo/message/auth/AuthResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/pom.xml" afterDir="false" />
+    <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/buf/ByteBufCompositeBufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/buf/ByteBufDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/codec/codec.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/SerializationServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/serialization/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/biosocket/pseudoasyn/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/biosocket/pseudoasyn/ServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/biosocket/pseudoasyn/ServerThreadReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/biosocket/pseudoasyn/ServerThreadReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/Transfers.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/channel/Transfers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/nio.md" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/nio.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/selector/SelectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/selector/SelectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/selector/selector.md" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/selector/selector.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/MessageBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/messgae/MessageBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/server.md" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/nio/server/server.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC/JUC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/JUC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +101,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChatClient">
+  <component name="RunManager" selected="Application.ByteBufCompositeBufferDemo">
+    <configuration name="ByteBufCompositeBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.buf.ByteBufCompositeBufferDemo" />
+      <module name="JDK-Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.netty.buf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByteBufDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.netty.buf.ByteBufDemo" />
+      <module name="JDK-Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.netty.buf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.nio.chatsystem.ChatClient" />
       <module name="JDK-Labs" />
@@ -206,34 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MappedBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.nio.buffer.MappedBufferDemo" />
-      <module name="JDK-Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.nio.buffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.nio.selector.NIOClient" />
-      <module name="JDK-Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.nio.selector.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.nio.selector.NIOServer" />
       <module name="JDK-Labs" />
       <extension name="coverage">
         <pattern>
@@ -260,21 +182,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MappedBufferDemo" />
-      <item itemvalue="Application.NIOServer" />
       <item itemvalue="Application.NIOClient" />
       <item itemvalue="Application.ChatServer" />
       <item itemvalue="Application.ChatClient" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Application.ByteBufDemo" />
+      <item itemvalue="Application.ByteBufCompositeBufferDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByteBufCompositeBufferDemo" />
+        <item itemvalue="Application.ByteBufDemo" />
         <item itemvalue="Application.ChatClient" />
         <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.NIOClient" />
-        <item itemvalue="Application.NIOServer" />
-        <item itemvalue="Application.MappedBufferDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +259,8 @@
       <workItem from="1617590651033" duration="14468000" />
       <workItem from="1617623679694" duration="1340000" />
       <workItem from="1617670220052" duration="11000" />
-      <workItem from="1618482889576" duration="6336000" />
+      <workItem from="1618482889576" duration="6803000" />
+      <workItem from="1618748242834" duration="2882000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -556,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617430238220</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="增加AIO和Netty的相关内容">
+      <created>1618495810594</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1618495810594</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +507,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="阻塞队列样例演示" />
     <MESSAGE value="生产者消费者样例演示" />
     <MESSAGE value="利用condition实现精确唤醒" />
     <MESSAGE value="使用阻塞队列实现的生产者消费者" />
@@ -602,6 +531,7 @@
     <MESSAGE value="更新Linux文章" />
     <MESSAGE value="修改README" />
     <MESSAGE value="增加NIO server相关的内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加NIO server相关的内容" />
+    <MESSAGE value="增加AIO和Netty的相关内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加AIO和Netty的相关内容" />
   </component>
 </project>
