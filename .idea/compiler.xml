@@ -7,17 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="labs-kafka" />
-        <module name="JUC" />
-        <module name="fudan.edu" />
-        <module name="Linux-knowledge" />
-        <module name="labs-websocket" />
-        <module name="netty-client" />
-        <module name="JDK-Labs" />
-        <module name="labs-redis" />
-        <module name="SpringBoot-labs" />
         <module name="netty-common" />
-        <module name="labs-ElasticSearch" />
+        <module name="SpringBoot-labs" />
+        <module name="Linux-knowledge" />
+        <module name="netty-client" />
         <module name="Desgin-Pattern-Java" />
+        <module name="JDK-Labs" />
+        <module name="fudan.edu" />
+        <module name="labs-redis" />
+        <module name="JUC" />
+        <module name="labs-ElasticSearch" />
+        <module name="labs-websocket" />
       </profile>
       <profile name="Annotation profile for demo" enabled="true">
         <sourceOutputDir name="../netty-client/target/generated-sources/annotations" />
