@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/SpringBoot-labs/Feign/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/pom.xml" />
       </list>
     </option>
   </component>

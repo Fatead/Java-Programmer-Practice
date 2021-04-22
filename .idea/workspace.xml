@@ -5,80 +5,149 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_gson_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_spring4_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/codec/Msg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/codec/MsgHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/codec/MsgType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/io/netty/codec/MyDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/FeignConsumerDemo1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/controller/DemoController02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/feign/UserServiceFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/feign/UserServiceFeignClient02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/feign/request/UserAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/feign/response/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/test/java/com/example/feignconsumerdemo1/FeignConsumerDemo1ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/src/main/java/com/example/feignuserservice/FeignUserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/src/main/java/com/example/feignuserservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/src/main/java/com/example/feignuserservice/request/UserAddRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/src/main/java/com/example/feignuserservice/response/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/src/test/java/com/example/feignuserservice/FeignUserServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_nacos_discovery_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_39.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/src/main/java/com/example/nacosdiscoveryproviderdemo01/NacosDiscoveryProviderDemo01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/src/main/java/com/example/nacosdiscoveryconsumerdemo01/NacosDiscoveryConsumerDemo01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/dubbo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC/fudan.edu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/fudan.edu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/config/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/config/FeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/controller/DemoController02.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/controller/DemoController02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/feign/UserServiceFeignClient02.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java/com/example/feignconsumerdemo1/feign/UserServiceFeignClient02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +180,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt://C:/Users/Zero/AppData/Local/JetBrains/IntelliJ IDEA 2019.2.4/jbr!/java.base/java/lang/NoClassDefFoundError.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1fqjGNEEIWd09xvHJLefFDGPZGJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -132,8 +204,8 @@
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringBoot-labs/labs-netty" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.123609394" />
+    <property name="project.structure.side.proportion" value="0.23713928" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -156,7 +228,7 @@
       <recent name="C:\Users\Zero\IdeaProjects\ProgramPractice\JUC\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FeignConsumerDemo1Application">
+  <component name="RunManager" selected="Spring Boot.NacosDiscoveryConsumerDemo01Application">
     <configuration name="ByteBufCompositeBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.netty.buf.ByteBufCompositeBufferDemo" />
       <module name="JDK-Labs" />
@@ -296,6 +368,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosDiscoveryConsumerDemo01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-discovery-consumer-demo01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.nacosdiscoveryconsumerdemo01.NacosDiscoveryConsumerDemo01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosDiscoveryProviderDemo01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Nacos-discovery-provider-demo01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.nacosdiscoveryproviderdemo01.NacosDiscoveryProviderDemo01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ByteBufCompositeBufferDemo" />
       <item itemvalue="Application.SerializationServer" />
@@ -311,6 +397,8 @@
       <item itemvalue="Spring Boot.FeignApplication" />
       <item itemvalue="Spring Boot.FeignConsumerDemo1Application" />
       <item itemvalue="Spring Boot.FeignUserServiceApplication" />
+      <item itemvalue="Spring Boot.NacosDiscoveryConsumerDemo01Application" />
+      <item itemvalue="Spring Boot.NacosDiscoveryProviderDemo01Application" />
     </list>
     <recent_temporary>
       <list>
@@ -386,7 +474,7 @@
       <workItem from="1618748242834" duration="8090000" />
       <workItem from="1618795025060" duration="2185000" />
       <workItem from="1618881299351" duration="1429000" />
-      <workItem from="1619056860930" duration="3298000" />
+      <workItem from="1619056860930" duration="8801000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -633,7 +721,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618796924555</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="增加Feign，声明式服务调用的样例">
+      <created>1619060393938</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1619060393938</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +748,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="整理线程池的代码" />
     <MESSAGE value="手写线程池的实现代码" />
     <MESSAGE value="死锁的样例Demo" />
     <MESSAGE value="添加LockSupport的样例" />
@@ -678,6 +772,7 @@
     <MESSAGE value="增加netty Codec和ByteBuf的样例代码" />
     <MESSAGE value="基于netty自定义的序列化工具进行序列化" />
     <MESSAGE value="基于jackson进行序列化" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于jackson进行序列化" />
+    <MESSAGE value="增加Feign，声明式服务调用的样例" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Feign，声明式服务调用的样例" />
   </component>
 </project>

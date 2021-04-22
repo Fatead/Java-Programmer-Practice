@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="netty-client" />
         <module name="netty-common" />
+        <module name="dubbo" />
         <module name="Feign-consumer-demo1" />
         <module name="labs-ElasticSearch" />
+        <module name="Nacos" />
         <module name="fudan.edu" />
+        <module name="demo" />
         <module name="labs-websocket" />
+        <module name="netty-server" />
         <module name="Linux-knowledge" />
         <module name="Desgin-Pattern-Java" />
-        <module name="SpringBoot-labs" />
+        <module name="nacos-discovery-consumer-demo01" />
+        <module name="Nacos-discovery-provider-demo01" />
         <module name="Feign" />
         <module name="JUC" />
         <module name="labs-kafka" />
@@ -23,14 +27,16 @@
         <module name="Feign-user-service" />
       </profile>
       <profile name="Annotation profile for demo" enabled="true">
-        <sourceOutputDir name="../netty-common/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../netty-common/target/generated-test-sources/test-annotations" />
+        <sourceOutputDir name="../netty-server/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../netty-server/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="netty-server" />
+        <module name="netty-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Desgin-Pattern-Java" target="1.5" />
+      <module name="demo" target="11" />
+      <module name="Desgin-Pattern-Java" target="11" />
+      <module name="dubbo" target="11" />
       <module name="Feign" target="11" />
       <module name="Feign-consumer-demo1" target="11" />
       <module name="Feign-user-service" target="11" />
@@ -43,10 +49,13 @@
       <module name="labs-redis" target="11" />
       <module name="labs-websocket" target="11" />
       <module name="Linux-knowledge" target="1.5" />
+      <module name="Nacos" target="11" />
+      <module name="nacos-discovery-consumer-demo01" target="11" />
+      <module name="Nacos-discovery-provider-demo01" target="1.5" />
       <module name="netty-client" target="11" />
       <module name="netty-common" target="11" />
       <module name="netty-server" target="11" />
-      <module name="SpringBoot-labs" target="1.5" />
+      <module name="SpringBoot-labs" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -54,11 +63,13 @@
       <module name="Feign" options="-parameters" />
       <module name="Feign-consumer-demo1" options="-parameters" />
       <module name="Feign-user-service" options="-parameters" />
+      <module name="Nacos-discovery-provider-demo01" options="" />
       <module name="labs-ElasticSearch" options="-parameters" />
       <module name="labs-kafka" options="-parameters" />
       <module name="labs-netty" options="-parameters" />
       <module name="labs-redis" options="-parameters" />
       <module name="labs-websocket" options="-parameters" />
+      <module name="nacos-discovery-consumer-demo01" options="" />
       <module name="netty-client" options="-parameters" />
       <module name="netty-common" options="-parameters" />
       <module name="netty-server" options="-parameters" />

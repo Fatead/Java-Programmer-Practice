@@ -9,17 +9,22 @@
       <module fileurl="file://$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" filepath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUC/JUC.iml" filepath="$PROJECT_DIR$/JUC/JUC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" filepath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/Nacos-discovery-provider-demo01.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/Nacos-discovery-provider-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgramPractice.iml" filepath="$PROJECT_DIR$/ProgramPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/demo (1).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/demo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/demo (2).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/demo (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/demo (3).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/demo (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUC/fudan.edu.iml" filepath="$PROJECT_DIR$/JUC/fudan.edu.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/labs-netty.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/labs-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-redis/labs-redis.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/labs-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/labs-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/nacos-discovery-consumer-demo01.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/nacos-discovery-consumer-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/netty-client.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/netty-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/netty-common.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/netty-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/netty-server.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/netty-server.iml" />
