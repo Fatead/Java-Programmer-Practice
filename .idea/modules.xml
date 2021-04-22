@@ -21,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUC/fudan.edu.iml" filepath="$PROJECT_DIR$/JUC/fudan.edu.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/gateway-demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/gateway-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-registry/gateway-registry.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-registry/gateway-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/labs-netty.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/labs-netty.iml" />

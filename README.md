@@ -20,7 +20,7 @@
 ### 2. SpringBoot
 + ElasticSearch
 + Kafka
-+ WebSocket
++ [WebSocket](https://github.com/Fatead/Java-Programmer-Practice/blob/master/SpringBoot-labs/labs-websocket/websocket.md)
 + redis
 + [Sentinel流量控制](https://github.com/Fatead/Java-Programmer-Practice/blob/master/SpringBoot-labs/labs-sentinel/sentinel.md)
 + [Spring Cloud Gateway](https://github.com/Fatead/Java-Programmer-Practice/blob/master/SpringBoot-labs/SpringCloudGateway/SpringCloudGateway.md)

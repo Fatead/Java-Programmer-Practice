@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-registry/pom.xml" />
       </list>
     </option>
   </component>

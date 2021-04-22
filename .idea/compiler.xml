@@ -7,27 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="netty-client" />
-        <module name="labs-sentinel" />
         <module name="netty-common" />
         <module name="dubbo" />
         <module name="Feign-consumer-demo1" />
         <module name="labs-ElasticSearch" />
-        <module name="Nacos" />
-        <module name="fudan.edu" />
         <module name="demo" />
-        <module name="labs-websocket" />
         <module name="netty-server" />
         <module name="Linux-knowledge" />
         <module name="Desgin-Pattern-Java" />
         <module name="nacos-discovery-consumer-demo01" />
+        <module name="Feign" />
+        <module name="JUC" />
+        <module name="labs-sentinel" />
+        <module name="Nacos" />
+        <module name="fudan.edu" />
+        <module name="labs-websocket" />
         <module name="Nacos-discovery-provider-demo01" />
         <module name="demo (1)" />
         <module name="sentinel-demo" />
-        <module name="Feign" />
         <module name="gateway-demo" />
-        <module name="JUC" />
         <module name="labs-kafka" />
         <module name="JDK-Labs" />
+        <module name="gateway-registry" />
         <module name="labs-redis" />
         <module name="Feign-user-service" />
       </profile>
@@ -42,6 +43,7 @@
       <module name="Feign-user-service" target="11" />
       <module name="fudan.edu" target="6" />
       <module name="gateway-demo" target="11" />
+      <module name="gateway-registry" target="11" />
       <module name="JDK-Labs" target="6" />
       <module name="JUC" target="11" />
       <module name="labs-ElasticSearch" target="1.6" />
@@ -71,6 +73,7 @@
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
       <module name="gateway-demo" options="" />
+      <module name="gateway-registry" options="" />
       <module name="labs-ElasticSearch" options="-parameters" />
       <module name="labs-kafka" options="-parameters" />
       <module name="labs-netty" options="-parameters" />
