@@ -12,6 +12,7 @@
         <module>dubbo</module>
         <module>Nacos</module>
         <module>Nacos</module>
+        <module>labs-sentinel</module>
     </modules>
 
 
