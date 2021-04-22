@@ -16,6 +16,9 @@
         <option value="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/labs-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/Feign/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/pom.xml" />
       </list>
     </option>
   </component>

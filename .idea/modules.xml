@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" filepath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Feign/Feign.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/Feign-consumer-demo1.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/Feign-consumer-demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/Feign-user-service.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/Feign-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" filepath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUC/JUC.iml" filepath="$PROJECT_DIR$/JUC/JUC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" filepath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" />

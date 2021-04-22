@@ -2,15 +2,22 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SpringBoot-labs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-consumer-demo1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/Feign/Feign-user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
