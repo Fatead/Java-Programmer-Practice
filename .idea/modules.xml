@@ -13,12 +13,14 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/Nacos-discovery-provider-demo01.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/Nacos-discovery-provider-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgramPractice.iml" filepath="$PROJECT_DIR$/ProgramPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/SpringCloudGateway.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/SpringCloudGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/demo (1).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/demo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/demo (2).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/demo (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/demo (3).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/demo (3).iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUC/fudan.edu.iml" filepath="$PROJECT_DIR$/JUC/fudan.edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/gateway-demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/gateway-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/labs-ElasticSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/labs-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/labs-netty.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/labs-netty.iml" />

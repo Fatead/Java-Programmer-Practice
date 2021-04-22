@@ -18,4 +18,10 @@ public class DemoController {
         return "test";
     }
 
+    @GetMapping("/sleep")
+    public String sleep() throws InterruptedException {
+        Thread.sleep(100L);
+        return "sleep";
+    }
+
 }

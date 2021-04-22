@@ -5,76 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webmvc_adapter_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/img/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/labs-sentinel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/main/java/com/example/sentineldemo/SentinelDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/main/java/com/example/sentineldemo/config/SentinelConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/main/java/com/example/sentineldemo/config/SpringMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/main/java/com/example/sentineldemo/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/main/java/com/example/sentineldemo/web/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/main/resources/sentinel.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/test/java/com/example/sentineldemo/SentinelDemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/SpringCloud Gateway.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/SpringCloudGateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/src/main/java/com/example/gatewaydemo/GatewayDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_39.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_39.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/Feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/Feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/Nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/Nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/dubbo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/dubbo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/main/java/com/example/sentineldemo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/src/main/java/com/example/sentineldemo/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel.md" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBoot-labs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +103,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jrt://C:/Users/Zero/AppData/Local/JetBrains/IntelliJ IDEA 2019.2.4/jbr!/java.base/java/lang/NoClassDefFoundError.class" root0="SKIP_INSPECTION" />
@@ -148,6 +152,7 @@
       <recent name="C:\Users\Zero\IdeaProjects\ProgramPractice\JUC\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Zero\IdeaProjects\ProgramPractice\SpringBoot-labs\SpringCloudGateway\img" />
       <recent name="C:\Users\Zero\IdeaProjects\ProgramPractice\SpringBoot-labs\labs-sentinel\img" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -161,7 +166,7 @@
       <recent name="net" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SentinelDemoApplication">
+  <component name="RunManager" selected="Spring Boot.FeignConsumerDemo1Application">
     <configuration name="ByteBufCompositeBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.netty.buf.ByteBufCompositeBufferDemo" />
       <module name="JDK-Labs" />
@@ -287,6 +292,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lab-Kafka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -311,6 +323,13 @@
     <configuration name="FeignUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Feign-user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.feignuserservice.FeignUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gatewaydemo.GatewayDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,6 +375,8 @@
       <item itemvalue="Spring Boot.DemoApplication (5)" />
       <item itemvalue="Spring Boot.DemoApplication (6)" />
       <item itemvalue="Spring Boot.SentinelDemoApplication" />
+      <item itemvalue="Spring Boot.GatewayDemoApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (7)" />
     </list>
     <recent_temporary>
       <list>
@@ -433,7 +454,7 @@
       <workItem from="1618881299351" duration="1429000" />
       <workItem from="1619056860930" duration="8907000" />
       <workItem from="1619077241246" duration="555000" />
-      <workItem from="1619087791566" duration="3470000" />
+      <workItem from="1619087791566" duration="10448000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -694,7 +715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619076656349</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="增加Sentinel的代码">
+      <created>1619091579539</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1619091579539</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -714,7 +742,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="死锁的样例Demo" />
     <MESSAGE value="添加LockSupport的样例" />
     <MESSAGE value="AQS" />
     <MESSAGE value="利用ReentrantLock实现线程安全的list" />
@@ -739,6 +766,7 @@
     <MESSAGE value="基于jackson进行序列化" />
     <MESSAGE value="增加Feign，声明式服务调用的样例" />
     <MESSAGE value="增加Feign的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Feign的代码" />
+    <MESSAGE value="增加Sentinel的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加Sentinel的代码" />
   </component>
 </project>
