@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo-application-discovery # 应用名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 # Nacos服务器地址
+        service: ${spring.application.name} # 注册到Nacos的服务名
+
+server:
+  port: 18080 # 服务器端口

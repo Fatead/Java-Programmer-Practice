@@ -24,6 +24,7 @@
 + redis
 + [Sentinel流量控制](https://github.com/Fatead/Java-Programmer-Practice/blob/master/SpringBoot-labs/labs-sentinel/sentinel.md)
 + [Spring Cloud Gateway](https://github.com/Fatead/Java-Programmer-Practice/blob/master/SpringBoot-labs/SpringCloudGateway/SpringCloudGateway.md)
++ [Nacos](https://github.com/Fatead/Java-Programmer-Practice/blob/master/SpringBoot-labs/Nacos/Nacos.md)
 ### 3. 用Java实现的各种设计模式
 + 单例模式（饿汉式、懒汉式）
 

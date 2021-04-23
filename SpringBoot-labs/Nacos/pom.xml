@@ -15,5 +15,11 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Nacos-discovery-provider-demo01</module>
+        <module>Nacos-discovery-demo</module>
+    </modules>
 
 </project>

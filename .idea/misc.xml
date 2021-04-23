@@ -24,6 +24,9 @@
         <option value="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/spring-data-jest/pom.xml" />
       </list>
     </option>
   </component>

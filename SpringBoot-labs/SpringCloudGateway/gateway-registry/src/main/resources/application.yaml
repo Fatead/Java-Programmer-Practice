@@ -1,0 +1,21 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: mygateway # 路由的编号
+          uri: https://github.com/Fatead # 路由到的目标地址
+          predictes: # 断言，作为路由器的匹配条件
+            - Path=/blog
+          filters:
+            - StripPrefix=1
+        - id: oschina # 路由的编号
+          uri: https://www.oschina.net # 路由的目标地址
+          predicates: # 断言，作为路由的匹配条件，对应 RouteDefinition 数组
+            - Path=/oschina
+          filters: # 过滤器，对请求进行拦截，实现自定义的功能，对应 FilterDefinition 数组
+            - StripPrefix=1
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848 # Nacos服务器地址

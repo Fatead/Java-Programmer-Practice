@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/JUC/JUC.iml" filepath="$PROJECT_DIR$/JUC/JUC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" filepath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-demo/Nacos-discovery-demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-demo/Nacos-discovery-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/Nacos-discovery-provider-demo01.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/Nacos-discovery-provider-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgramPractice.iml" filepath="$PROJECT_DIR$/ProgramPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" />
@@ -33,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/netty-common.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/netty-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/netty-server.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/netty-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/sentinel-demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/sentinel-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/spring-data-jest/spring-data-jest.iml" />
     </modules>
   </component>
 </project>
