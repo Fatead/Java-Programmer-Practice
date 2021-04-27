@@ -8,23 +8,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="netty-client" />
         <module name="spring-data-jest" />
+        <module name="labs-sentinel" />
         <module name="netty-common" />
         <module name="dubbo" />
         <module name="Feign-consumer-demo1" />
         <module name="demo" />
+        <module name="fudan.edu" />
+        <module name="labs-websocket" />
         <module name="netty-server" />
+        <module name="Nacos-discovery-demo" />
         <module name="Linux-knowledge" />
         <module name="Desgin-Pattern-Java" />
         <module name="nacos-discovery-consumer-demo01" />
-        <module name="JUC" />
-        <module name="labs-sentinel" />
-        <module name="fudan.edu" />
-        <module name="labs-websocket" />
-        <module name="Nacos-discovery-demo" />
         <module name="Nacos-discovery-provider-demo01" />
         <module name="demo (1)" />
         <module name="sentinel-demo" />
         <module name="gateway-demo" />
+        <module name="JUC" />
         <module name="labs-kafka" />
         <module name="JDK-Labs" />
         <module name="gateway-registry" />
@@ -61,7 +61,7 @@
       <module name="netty-server" target="11" />
       <module name="ProgramPractice" target="1.5" />
       <module name="sentinel-demo" target="11" />
-      <module name="spring-data-jest" target="1.6" />
+      <module name="spring-data-jest" target="11" />
       <module name="SpringBoot-labs" target="1.5" />
       <module name="SpringCloudGateway" target="11" />
     </bytecodeTargetLevel>
