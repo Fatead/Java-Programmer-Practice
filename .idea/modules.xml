@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-demo/Nacos-discovery-demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-demo/Nacos-discovery-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/Nacos-discovery-provider-demo01.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-provider-demo01/Nacos-discovery-provider-demo01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgramPractice.iml" filepath="$PROJECT_DIR$/ProgramPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/Spring-cloud-config/Spring-cloud-config.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/Spring-cloud-config/Spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/SpringCloudGateway.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/SpringCloudGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/demo.iml" />
@@ -20,6 +21,8 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka/demo (2).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-kafka/demo (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-websocket/demo (3).iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-websocket/demo (3).iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-annotations-demo/dubbo-annotations-demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-annotations-demo/dubbo-annotations-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/dubbo-xml.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/dubbo-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/JUC/fudan.edu.iml" filepath="$PROJECT_DIR$/JUC/fudan.edu.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/gateway-demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/gateway-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-registry/gateway-registry.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-registry/gateway-registry.iml" />
@@ -34,6 +37,9 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/netty-common.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-common/netty-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/netty-server.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-netty/netty-server/netty-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/sentinel-demo.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-sentinel/sentinel-demo/sentinel-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-api/service-api.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-api/service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-consumer/service-consumer.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-consumer/service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-provider/service-provider.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-provider/service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/spring-data-jest/spring-data-jest.iml" filepath="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/spring-data-jest/spring-data-jest.iml" />
     </modules>
   </component>

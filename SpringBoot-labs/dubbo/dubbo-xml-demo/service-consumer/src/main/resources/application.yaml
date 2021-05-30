@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: user-service-consumer
+  # dubbo 注册中心配置
+  registry:
+    address: zookeeper://127.0.0.1:2181 # 注册中心的地址
+  # dubbo 消费者配置
+  consumer:
+    timeout: 1000  # 远程服务调用超时时间
+    UserRpcService:
+      version: 1.0.0

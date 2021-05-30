@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-config-server:3.0.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/3.0.5-SNAPSHOT/spring-cloud-config-server-3.0.5-20210529.204728-10.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/3.0.5-SNAPSHOT/spring-cloud-config-server-3.0.5-20210529.204728-10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/3.0.5-SNAPSHOT/spring-cloud-config-server-3.0.5-20210529.204728-10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

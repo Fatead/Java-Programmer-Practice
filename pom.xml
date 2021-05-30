@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springboot-labs</module>
+        <module>dubbo-xml-demo</module>
+        <module>SpringBoot-labs/dubbo/dubbo-xml-demo</module>
     </modules>
 
 

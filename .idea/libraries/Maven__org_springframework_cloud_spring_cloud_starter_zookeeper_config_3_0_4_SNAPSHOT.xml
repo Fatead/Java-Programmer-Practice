@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-zookeeper-config:3.0.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-zookeeper-config/3.0.4-SNAPSHOT/spring-cloud-starter-zookeeper-config-3.0.4-20210530.022138-9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-zookeeper-config/3.0.4-SNAPSHOT/spring-cloud-starter-zookeeper-config-3.0.4-20210530.022138-9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-zookeeper-config/3.0.4-SNAPSHOT/spring-cloud-starter-zookeeper-config-3.0.4-20210530.022138-9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

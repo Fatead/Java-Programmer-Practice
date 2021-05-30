@@ -27,7 +27,17 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/Nacos/Nacos-discovery-demo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/spring-data-jest/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-annotations-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-labs/Spring-cloud-config/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/dubbo-xml-demo/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectKey">

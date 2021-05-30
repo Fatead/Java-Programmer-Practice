@@ -9,6 +9,10 @@
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/Nacos/nacos-discovery-consumer-demo01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/SpringCloudGateway/gateway-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-annotations-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBoot-labs/dubbo/dubbo-xml-demo/service-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-ElasticSearch/spring-data-jest/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-labs/labs-kafka" charset="UTF-8" />

@@ -8,28 +8,33 @@
         <outputRelativeToContentRoot value="true" />
         <module name="netty-client" />
         <module name="spring-data-jest" />
-        <module name="labs-sentinel" />
         <module name="netty-common" />
         <module name="dubbo" />
         <module name="Feign-consumer-demo1" />
         <module name="demo" />
-        <module name="fudan.edu" />
-        <module name="labs-websocket" />
         <module name="netty-server" />
-        <module name="Nacos-discovery-demo" />
         <module name="Linux-knowledge" />
         <module name="Desgin-Pattern-Java" />
         <module name="nacos-discovery-consumer-demo01" />
+        <module name="dubbo-annotations-demo" />
+        <module name="JUC" />
+        <module name="labs-sentinel" />
+        <module name="fudan.edu" />
+        <module name="labs-websocket" />
+        <module name="Nacos-discovery-demo" />
         <module name="Nacos-discovery-provider-demo01" />
         <module name="demo (1)" />
         <module name="sentinel-demo" />
         <module name="gateway-demo" />
-        <module name="JUC" />
+        <module name="service-consumer" />
         <module name="labs-kafka" />
         <module name="JDK-Labs" />
+        <module name="service-provider" />
         <module name="gateway-registry" />
+        <module name="dubbo-xml" />
         <module name="labs-redis" />
         <module name="Feign-user-service" />
+        <module name="service-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +42,9 @@
       <module name="demo (1)" target="1.6" />
       <module name="Desgin-Pattern-Java" target="1.5" />
       <module name="dubbo" target="11" />
+      <module name="dubbo-annotations-demo" target="11" />
+      <module name="dubbo-xml" target="11" />
+      <module name="dubbo-xml-demo" target="11" />
       <module name="Feign" target="1.5" />
       <module name="Feign-consumer-demo1" target="11" />
       <module name="Feign-user-service" target="11" />
@@ -61,9 +69,14 @@
       <module name="netty-server" target="11" />
       <module name="ProgramPractice" target="1.5" />
       <module name="sentinel-demo" target="11" />
+      <module name="service-api" target="11" />
+      <module name="service-consumer" target="11" />
+      <module name="service-provider" target="11" />
+      <module name="Spring-cloud-config" target="1.5" />
       <module name="spring-data-jest" target="11" />
       <module name="SpringBoot-labs" target="1.5" />
       <module name="SpringCloudGateway" target="11" />
+      <module name="wrapper" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -73,8 +86,10 @@
       <module name="Feign-user-service" options="-parameters" />
       <module name="Nacos-discovery-demo" options="" />
       <module name="Nacos-discovery-provider-demo01" options="" />
+      <module name="Spring-cloud-config" options="" />
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
+      <module name="dubbo-annotations-demo" options="-parameters" />
       <module name="gateway-demo" options="" />
       <module name="gateway-registry" options="" />
       <module name="labs-ElasticSearch" options="" />
@@ -87,6 +102,9 @@
       <module name="netty-common" options="-parameters" />
       <module name="netty-server" options="-parameters" />
       <module name="sentinel-demo" options="-parameters" />
+      <module name="service-api" options="-parameters" />
+      <module name="service-consumer" options="-parameters" />
+      <module name="service-provider" options="-parameters" />
       <module name="spring-data-jest" options="-parameters" />
     </option>
   </component>
