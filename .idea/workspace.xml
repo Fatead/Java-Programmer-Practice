@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="增加Spring Cloud Config">
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/aop/AccountAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/aop/AccountProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/aop/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/aop/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/aop/IAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="501043a9-044c-49da-a25d-b228be2bbd5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/future/CompleteFutureBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/future/CompleteFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDK-labs/src/main/java/future/FutureDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Desgin-Pattern-Java/Desgin-Pattern-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDK-labs/JDK-Labs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC/fudan.edu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC/fudan.edu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Linux-knowledge/Linux-knowledge.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot-labs/SpringBoot-labs.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,20 +97,33 @@
       <recent name="JUC" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="future" />
       <recent name="com.example.demo.service" />
       <recent name="com.example.demo.config" />
       <recent name="Singleton" />
       <recent name="stream" />
-      <recent name="net" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.CompleteFutureBasic">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aop.Client" />
       <module name="JDK-Labs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompleteFutureBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="future.CompleteFutureBasic" />
+      <module name="JDK-Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,6 +144,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SemaphoreABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.semaphore.SemaphoreABC" />
+      <module name="fudan.edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.semaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUC.atomic.ThreadABC" />
+      <module name="fudan.edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUC.atomic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -147,54 +177,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ESTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-jest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springdatajest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springdatajest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springdatajest.ESTest" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ESTest.testCreateIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-jest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springdatajest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springdatajest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springdatajest.ESTest" />
-      <option name="METHOD_NAME" value="testCreateIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ESTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-jest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springdatajest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springdatajest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springdatajest.ESTest" />
-      <option name="METHOD_NAME" value="testQuery" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -368,9 +350,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ESTest.testCreateIndex" />
-      <item itemvalue="JUnit.ESTest.testAdd" />
-      <item itemvalue="JUnit.ESTest.testQuery" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.GenericClass" />
+      <item itemvalue="Application.ThreadABC" />
+      <item itemvalue="Application.SemaphoreABC" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.DemoApplication (1)" />
@@ -395,16 +378,15 @@
       <item itemvalue="Spring Boot.ServiceProviderApplication" />
       <item itemvalue="Spring Boot.ServiceConsumerApplication" />
       <item itemvalue="Spring Boot.SpringCloudConfigApplication" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.GenericClass" />
+      <item itemvalue="Application.CompleteFutureBasic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompleteFutureBasic" />
+        <item itemvalue="Application.SemaphoreABC" />
+        <item itemvalue="Application.ThreadABC" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.GenericClass" />
-        <item itemvalue="JUnit.ESTest.testQuery" />
-        <item itemvalue="JUnit.ESTest.testAdd" />
-        <item itemvalue="JUnit.ESTest.testCreateIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +461,18 @@
       <workItem from="1619492566208" duration="17289000" />
       <workItem from="1622348932866" duration="2948000" />
       <workItem from="1622420817348" duration="32000" />
-      <workItem from="1625299492269" duration="2459000" />
+      <workItem from="1625299492269" duration="3099000" />
+      <workItem from="1625361324877" duration="243000" />
+      <workItem from="1626570099407" duration="2025000" />
+      <workItem from="1626600536853" duration="5000" />
+      <workItem from="1628253658275" duration="1672000" />
+      <workItem from="1628302943387" duration="53000" />
+      <workItem from="1628387364571" duration="596000" />
+      <workItem from="1629964679769" duration="813000" />
+      <workItem from="1629966406607" duration="676000" />
+      <workItem from="1629979635405" duration="18000" />
+      <workItem from="1630116300049" duration="633000" />
+      <workItem from="1631067625955" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="分别实现四种线程池">
       <created>1596954937165</created>
@@ -782,7 +775,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622350403616</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="增加静态代理和动态代理的实现">
+      <created>1625312230928</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1625312230928</updated>
+    </task>
+    <task id="LOCAL-00045" summary="增加线程轮替打印">
+      <created>1629964731911</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1629964731911</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -802,8 +809,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DelayedQueue相关的代码" />
-    <MESSAGE value="HashMap源码的一种简单实现" />
     <MESSAGE value="增加ThreadLocal的Demo" />
     <MESSAGE value="重新整理项目的架构" />
     <MESSAGE value="修改readme文件" />
@@ -827,6 +832,8 @@
     <MESSAGE value="update nacos" />
     <MESSAGE value="增加ES相关的代码和文档" />
     <MESSAGE value="增加Spring Cloud Config" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加Spring Cloud Config" />
+    <MESSAGE value="增加静态代理和动态代理的实现" />
+    <MESSAGE value="增加线程轮替打印" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加线程轮替打印" />
   </component>
 </project>
